@@ -1,0 +1,32 @@
+<Vehiculo_de_tracción_mecanica>
+
+    <vehiculos>
+        <coche>
+            <marca>Audi</marca>
+            <modelo>A4</modelo>
+            <ano>1994</a>
+            <tipo>Vehiculo</tipo>
+            <numero_de_ruedas>4</numero_de_ruedas>
+        </coche>
+    </vehiculo>
+
+    <vehiculos>
+        <coche>
+            <marca>Mercedes</marca>
+            <modelo>clase a</modelo>
+            <ano>1997</a>
+            <tipo>Vehiculo</tipo>
+            <numero_de_ruedas>4</numero_de_ruedas>
+        </coche>
+    </vehiculo>
+
+    <vehiculos>
+        <coche>
+            <marca>Fiat</marca>
+            <modelo>500</modelo>
+            <ano>1957</a>
+            <tipo>Vehiculo</tipo>
+            <numero_de_ruedas>4</numero_de_ruedas>
+        </coche>
+    </vehiculo>
+</Vehiculo_de_tracción_mecanica>
