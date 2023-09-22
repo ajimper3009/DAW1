@@ -1,12 +1,12 @@
 <libros>
     <libro>
-        <titulo></titulo>
-        <autores></autores>
-        <editorial></editorial>
-        <fecha_de_publicacion></fecha_de_publicacion>
-        <isbn></isbn>
-        <precio></precio>
-        <nº_paginas></nº_paginas>
+        <titulo>El principito</titulo>
+        <autores>Antoine de Saint-Exupéry</autores>
+        <editorial>	Reynal Hitchcock</editorial>
+        <fecha_de_publicacion>1943</fecha_de_publicacion>
+        <isbn>9788498381498</isbn>
+        <precio>7,80</precio>
+        <nº_paginas>120</nº_paginas>
     </libro>
     <libro>
         <titulo></titulo>
@@ -35,3 +35,4 @@
         <precio></precio>
         <nº_paginas></nº_paginas>
     </libro>
+</libros>
