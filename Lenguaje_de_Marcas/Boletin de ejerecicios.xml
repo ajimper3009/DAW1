@@ -1,0 +1,90 @@
+1.- Dados los siguientes documentos xml:
+
+1.a)
+<?xml version="1.0" encoding="utf-8"?>
+<libro
+    autor="Isabel Castro"
+    titulo="XML Guía de Aprendizaje"
+    precio="30€">
+</libro>
+
+1.b)
+<?xml version="1.0" encoding="utf-8"?>
+<libro>
+    <autor>Isabel Castro</autor>
+    <titulo>XML Guía de Aprendizaje</titulo>
+    <precio moneda=“euros”>30</precio>
+</libro>
+
+a) ¿qué diferencia existe entre ambos?
+
+    En uno están puesto los datos como atributos 1.a) y en el otro estan puesto como etiquetas 1.b)
+
+b) Añade el autor “Domingo Fernández Pérez" al libro
+
+    Se tendría que añadir en el 1.b ya que no se puede tener 2 atributos con el mismo nombre pero sí dos etiquetas
+
+    <?xml version="1.0" encoding="utf-8"?>
+<libro>
+    <autor>Isabel Castro</autor>
+    <autor>Domingo Fernández Pérez</autor>
+    <titulo>XML Guía de Aprendizaje</titulo>
+    <precio moneda=“euros”>30</precio>
+</libro>
+
+2.- Comprueba si el siguiente documento xml es válido.
+
+<?xml versión="1.0" encoding="ISO-8859-1"?>
+<agenda>
+    <entrada>
+        <nombre-completo>Marta Elena Tablada</nombre-completo>
+        <direccion>
+            <calle> Avda Los Castros</calle>
+            <ciudad>Santander</ciudad>
+            <codigo-postal>39005</codigo-postal>
+            <region>Cantabria</region>
+            <pais>España</pais>
+        </direccion>
+        <tel preferente="true"> 942201363</tel>
+        <correo-e href="tabladam@unican.es"/>
+    </entrada>
+</agenda>
+
+El xml no sería valido ya que la palabra versión tiene acento
+
+3.- Encuentra los errores de los siguientes documentos mal formados
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+    <entrada>
+        <nombre-completo>Marta Elna Tablada
+        </entrada>
+    </agenda>
+
+    La etiqueta nombre-completo no está cerrada
+
+b) Dirección se cierra dos veces la buena es la de más arriba, tampoco tiene etiqueta raíz
+
+c) cierra la etiqueta "nombre" antes que la etiqueta "apellido"
+
+d) No tiene etiqueta raíz 
+
+e) Falta etiqueta raíz, etiqueta autor erronea
+
+f) la etiqueta deporte atletismo y natación son erroneas, primera etiqueta deportista de cierre no está
+
+4.- Dado el siguiente árbol de nodos, escribe el documento xml que representa
+
+<mensaje>
+    <remite
+        nombre="juan"
+        email="juan@gmai.es"/>
+    <Destinatario
+        nombre="pepe"
+        email="pepe@gmail.es"/>
+    <asunto>Felicitación</asunto>
+    <parrafo>Feliciadades por tu ascenso</parrafo>
+    <parrafo>Un saludo</parrafo>
+    <!--Comentario-->
+</mensaje>
+
