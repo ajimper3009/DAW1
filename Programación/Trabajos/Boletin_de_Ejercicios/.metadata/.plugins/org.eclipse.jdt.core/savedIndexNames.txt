@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\1 DAW\Repositorio_Alejandro\DAW1\Programación\Hola_Mundo\Boletin_de_Ejercicios\.metadata\.plugins\org.eclipse.jdt.core
