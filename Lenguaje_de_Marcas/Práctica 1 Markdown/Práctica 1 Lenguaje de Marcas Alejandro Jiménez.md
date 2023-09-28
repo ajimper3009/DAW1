@@ -34,7 +34,7 @@ Cada "#" significa que el párrafo se va haciendo mas pequeño
 
 Pagina oficial de Markdown [clickar aqui](https://markdown.es)
 
-Enlace a un archivo [local](https://drive.google.com/file/d/1wckWGdhnr2DIVhILsrhymo6xwreVFW5W/view?usp=drive_link) programado con markdown
+Enlace a un archivo [local](https://github.com/ajimper3009/DAW1/blob/main/Lenguaje_de_Marcas/Pr%C3%A1ctica%201%20Markdown/archivoLocal.md) programado con markdown
 
 # Imagén
 ![Chuleta!](https://i.pinimg.com/originals/0e/9b/c2/0e9bc208e1ad1fc03fdde5d1eecba64a.jpg "Chuleta básica Markdown")
