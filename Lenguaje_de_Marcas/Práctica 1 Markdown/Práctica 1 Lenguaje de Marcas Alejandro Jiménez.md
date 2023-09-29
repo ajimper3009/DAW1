@@ -49,5 +49,7 @@ Enlace a un archivo [local](https://github.com/ajimper3009/DAW1/blob/main/Lengua
 
 
 # Busca una herramienta para convertir tu documento a HTML y compara ambos archivos
+## Para pasar un archivo de md a HTML he utilizado un convertidor web
 
 ![Convertidor md a HTML!](https://github.com/ajimper3009/DAW1/blob/main/Lenguaje_de_Marcas/Pr%C3%A1ctica%201%20Markdown/Convertidor%20md%20a%20html.png?raw=true "Convertidor md a HTML")
+
