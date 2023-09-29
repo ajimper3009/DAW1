@@ -46,3 +46,8 @@ Enlace a un archivo [local](https://github.com/ajimper3009/DAW1/blob/main/Lengua
 |    Títulos    | # Grande ## Mediano ### Pequeño | < h1 >Grande< /h1 > < h2 >Mediano< /h2 > < h3 >Pequeño< /h3 > |
 | Letra negrita |          ** negrita **          |                       < b >negrita< /b >                      |
 | Letra itálica |           * itálica *           |                       < i >itálica< /i >                      |
+
+
+# Busca una herramienta para convertir tu documento a HTML y compara ambos archivos
+
+![Convertidor md a HTML!](https://github.com/ajimper3009/DAW1/blob/main/Lenguaje_de_Marcas/Pr%C3%A1ctica%201%20Markdown/Convertidor%20md%20a%20html.png?raw=true "Convertidor md a HTML")
