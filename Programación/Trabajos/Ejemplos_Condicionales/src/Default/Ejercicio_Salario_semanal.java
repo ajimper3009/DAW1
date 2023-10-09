@@ -1,6 +1,7 @@
 /**
  * 
  */
+package Default;
 
 import java.util.Scanner;
 

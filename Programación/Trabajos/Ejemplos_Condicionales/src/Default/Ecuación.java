@@ -1,6 +1,7 @@
 /**
  * 
  */
+package Default;
 
 import java.util.Scanner;
 
@@ -22,7 +23,7 @@ public class Ecuación {
 		int a = scan.nextInt();
 		
 		if (0 == a) {
-			System.out.println("Esa ecuación no tiene solucion real.");
+		System.out.println("Esa ecuación no tiene solucion real.");
 		} else {	
 		System.out.println("Introduce el parametro b: ");
 		int b = scan.nextInt();
