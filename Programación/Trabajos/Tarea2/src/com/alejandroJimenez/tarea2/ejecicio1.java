@@ -2,7 +2,7 @@ package com.alejandroJimenez.tarea2;
 
 import java.util.Scanner;
 
-public class tareaUnidad2evaluable {
+public class ejecicio1 {
 
 	public static void main(String[] args) {
 
@@ -22,9 +22,9 @@ public class tareaUnidad2evaluable {
          } else {
              int intentosRestantes = maxIntentos - intentos;
              if (intentosRestantes > 0) {
-                 System.out.println("Contraseña incorrecta. Te quedan " + intentosRestantes + " intentos.");
+                 System.out.println("Contraseña incorrecta, te quedan " + intentosRestantes + " intentos");
              } else {
-                 System.out.println("Has excedido el número máximo de intentos. Acceso denegado.");
+                 System.out.println("Has fallado el número máximo de intentos");
              }
          }
      }
@@ -34,3 +34,6 @@ public class tareaUnidad2evaluable {
 	}
 
 }
+
+
+//hacerlo con un do-while
