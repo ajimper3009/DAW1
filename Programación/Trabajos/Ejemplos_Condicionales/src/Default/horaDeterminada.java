@@ -33,11 +33,9 @@ public class horaDeterminada {
 		
 		scan.close();
 		
-		if (horas < 23) {
-			System.out.println("El valor indicado no es una hora ordinaria");
-			}
-		}
-		
+	
 	}
+		
+}
 
 
