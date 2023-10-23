@@ -23,6 +23,9 @@ public class horaDeterminada {
 		System.out.println("Introduce los minutos: ");
 		int minutos = scan.nextInt();
 		
+	
+		
+		
 		int horasRestantes = 24 - horas;
 		int minutosRestantes = 60 - minutos;
 		int segundosRestantes = (23 - horas) * 3600 + (60 - minutos) * 60;

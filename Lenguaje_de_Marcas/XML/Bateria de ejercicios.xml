@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mesa [
+    <!ELEMENT mesa ANY>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+]>
+
+<mesa>
+La mesa de
+    <material> madera es de color </material>
+    <color> marrón </color>
+</mesa>
+
+
+Forma geométrica
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE forma_geometrica [
+ <!ELEMENT forma_geometrica (nombre | caracteristicas | numero_de_lados)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT numero_de_lados (#PCDATA)>
+]>
+<forma_geometrica>
+    <nombre>rombo</nombre>
+    <caracteristicas>
+        <color>naranja</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    <numero_de_lados>4</numero_de_lados>
+</forma_geometrica>
+
+Solución:
+
+Forma geométrica
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE forma_geometrica [
+<!ELEMENT forma_geometrica (nombre, caracteristicas, numero_de_lados)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT caracteristicas (color, tipo)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT numero_de_lados (#PCDATA)>
+]>
+<forma_geometrica>
+    <nombre>rombo</nombre>
+    <caracteristicas>
+        <color>naranja</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    <numero_de_lados>4</numero_de_lados>
+</forma_geometrica>
+
+
+Lugares
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lugares [
+ <!ELEMENT lugares ANY*>
+]>
+<lugares>En el <lugar>polo norte</lugar> hace mucho frío. Pero, en el <lugar>desierto del Sahara</lugar> hace
+mucho calor.</lugares>
+
+
+Lugares
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lugares [
+ <!ELEMENT lugares (#PCDATA | lugar)*>
+ <!ELEMENT lugar (#PCDATA)>
+]>
+<lugares>En el <lugar>polo norte</lugar> hace mucho frío. Pero, en el <lugar>desierto del Sahara</lugar> hace
+mucho calor.</lugares>
+
+
+Elementos
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elementos [
+ <!ELEMENT elementos (pcdata*, any+, vacio)>
+ <!ELEMENT pcdata (#PCDATA)>
+ <!ELEMENT any (ANY)>
+ <!ELEMENT vacío (EMPTY)>
+]>
+<elementos>
+ <any/>
+ <vacio/>
+</elementos>
+
+//El tipo ANY engloba al tipo EMPTY
+
+Elementos
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elementos [
+ <!ELEMENT elementos (pcdata*, any+, vacio)>
+ <!ELEMENT pcdata (#PCDATA)>
+ <!ELEMENT any ANY>
+ <!ELEMENT vacío EMPTY>
+]>
+<elementos>
+ <any/>
+ <vacio/>
+</elementos>
+
+Ciudades
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades [
+ <!ELEMENT ciudades (ciudad)>
+ <!ELEMENT ciudad (nombre, capital)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT capital EMPTY>
+]>
+<ciudades>
+ <ciudad>
+ <nombre>Buenos Aires</nombre>
+ <capital/>
+ </ciudad>
+ <ciudad>
+ <nombre>Liverpool</nombre>
+ </ciudad>
+ <ciudad>
+ <nombre>Osaka</nombre>
+ </ciudad>
+ <ciudad>
+ <nombre>Oslo</nombre>
+ <capital/>
+ </ciudad>
+</ciudades>
+
+Ciudades
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades [
+ <!ELEMENT ciudades (ciudad)*>
+ <!ELEMENT ciudad (nombre, capital?)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT capital EMPTY>
+]>
+<ciudades>
+ <ciudad>
+ <nombre>Buenos Aires</nombre>
+ <capital/>
+ </ciudad>
+ <ciudad>
+ <nombre>Liverpool</nombre>
+ </ciudad>
+ <ciudad>
+ <nombre>Osaka</nombre>
+ </ciudad>
+ <ciudad>
+ <nombre>Oslo</nombre>
+ <capital/>
+ </ciudad>
+</ciudades>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
