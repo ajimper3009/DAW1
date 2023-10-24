@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+    <xs:element name="tiendas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tienda" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre_t" type="xs:string" />
+                            <xs:element name="dueno">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre_d" type="xs:string" />
+                                        <xs:element name="dni" type="xs:string" />
+                                        <xs:element name="contacto" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tlf" maxOccurs="unbounded"
+                                                        type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="direccion" minOccurs="0" type="xs:string" />
+                                        <xs:element name="oficina" minOccurs="0" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="almacen">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="stock" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cantidad" type="xs:string" />
+                                                    <xs:element name="precio" type="xs:string" />
+                                                    <xs:element name="unidad" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="cod" use="required" />
+                                                <xs:attribute name="tipo" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="socios">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="socio" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre_s" type="xs:string" />
+                                                    <xs:element name="reservas" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="reserva"
+                                                                    maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="cod_r"
+                                                                            use="required" />
+                                                                        <xs:attribute
+                                                                            name="referencia"
+                                                                            use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="telefono" minOccurs="0"
+                                                        type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="num" use="required" />
+                                                <xs:attribute name="registro" type="xs:date"
+                                                    use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" use="required" />
+                        <xs:attribute name="apertura" type="xs:date" />
+                        <xs:attribute name="alta_datos" type="xs:date" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

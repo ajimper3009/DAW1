@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="vehiculos.xsd"?>
+<Vehiculos>
+    <Vehiculo>
+        <marca>Audi</marca>
+        <modelo>A4</modelo>
+        <F_fabricacion dia="30" mes="10" anio="1994"/>
+        <Lugar_fabricacion Pais="EU">
+            <localidad/>
+        </Lugar_fabricacion>    
+        <Unidades>15.703</Unidades>
+    </Vehiculo>
+    <Vehiculo>
+        <marca>Fiat</marca>
+        <modelo>500</modelo>
+        <F_fabricacion dia="4" mes="7" anio="2007"/>
+        <Lugar_fabricacion Pais="EU">
+            <localidad/>
+        </Lugar_fabricacion>
+        <Unidades>3.893.294</Unidades>
+    </Vehiculo>
+</Vehiculos>

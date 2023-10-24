@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE universidad [
-    <!ELEMENT universidad (alumnos*, profesores*, asignaturas*)>
-    <!ELEMENT alumnos (alumno*)>
-    <!ELEMENT alumno (DNI,pasaporte, pais?, nombre, apellido1, apellido2, fechaNacimiento, infoExtra?)>
-    <!ELEMENT DNI (#PCDATA)>
-    <!ELEMENT pasaporte (pais)>
-    <!ELEMENT pais (#PCDATA)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT apellido1 (#PCDATA)>
-    <!ELEMENT apellido2 (#PCDATA)>
-    <!ELEMENT fechaNacimiento (#PCDATA)>
-    <!ELEMENT infoExtra (direccionPostal?, telefonos*, cuentasCorreos*)>
-    <!ELEMENT direccionPostal (#PCDATA)>
-    <!ELEMENT telefonos (tel+)>
-    <!ELEMENT tel (#PCDATA)>
-    <!ELEMENT cuentasCorreos (cuentaGmail+)>
-    <!ELEMENT cuentaGmail (#PCDATA)>
-    <!ELEMENT profesores (profesor,infoExtra?, despacho, horarioTuto, asignaturasImpartidas)>
-    <!ELEMENT despacho (#PCDATA)>
-    <!ELEMENT horarioTuto (#PCDATA)>
-    <!ELEMENT asignaturasImpartidas (#PCDATA)>
-    <!ELEMENT asignaturas (nota, codigo, creditos, carrera, curso)>
-    <!ELEMENT nota (#PCDATA)>
-    <!ELEMENT codigo (#PCDATA)>
-    <!ELEMENT creditos (#PCDATA)>
-    <!ELEMENT carrera (#PCDATA)>
-    <!ELEMENT curso (#PCDATA)>
+<!ELEMENT universidad (alumnos, profesores, asignaturas)>
+<!ELEMENT alumnos (alumno*)>
+<!ELEMENT alumno (DNI,pasaporte, pais?, nombre, apellido1, apellido2, fechaNacimiento, infoExtra?)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT pasaporte (pais)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT infoExtra (direccionPostal?, telefonos*, cuentasCorreos*)>
+<!ELEMENT direccionPostal (#PCDATA)>
+<!ELEMENT telefonos (tel+)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT cuentasCorreos (cuentaGmail+)>
+<!ELEMENT cuentaGmail (#PCDATA)>
+<!ELEMENT profesores (profesor)>
+<!ELEMENT profesor (DNI, nombre, apellido1, apellido2, fechaNacimiento,infoExtra?,despacho,horarioTuto,asignaturasImpartidas)>
+<!ELEMENT despacho (#PCDATA)>
+<!ELEMENT horarioTuto (#PCDATA)>
+<!ELEMENT asignaturasImpartidas (#PCDATA)>
+<!ELEMENT asignaturas (nota, codigo, creditos, carrera, curso?)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
 ]>
 
 <universidad>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Vehiculos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Vehiculo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="marca" type="xs:string" />
+                            <xs:element name="modelo" type="xs:string" />
+                            <xs:element name="F_fabricacion">
+                                <xs:complexType>
+                                    <xs:attribute name="dia" type="xs:integer" use="required" />
+                                    <xs:attribute name="mes" type="xs:integer" use="required" />
+                                    <xs:attribute name="anio" type="xs:integer" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Lugar_fabricacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="localidad" />
+                                    </xs:sequence>
+                                    <xs:attribute name="Pais" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Unidades" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -4,4 +4,4 @@
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT hora (#PCDATA)>
 <!ELEMENT mensaje (#PCDATA)>
-<!ELEMENT spam (#PCDATA)>
+<!ELEMENT spam EMPTY>
