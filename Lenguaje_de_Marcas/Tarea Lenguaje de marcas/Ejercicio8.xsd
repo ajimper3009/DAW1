@@ -54,25 +54,19 @@ elementFormDefault="qualified">
                                                     <xs:element name="reservas" minOccurs="0">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="reserva"
-                                                                    maxOccurs="unbounded">
+                                                                <xs:element name="reserva" maxOccurs="unbounded">
                                                                     <xs:complexType>
-                                                                        <xs:attribute name="cod_r"
-                                                                            use="required" />
-                                                                        <xs:attribute
-                                                                            name="referencia"
-                                                                            use="required" />
+                                                                        <xs:attribute name="cod_r" use="required" />
+                                                                        <xs:attribute name="referencia" use="required" />
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="telefono" minOccurs="0"
-                                                        type="xs:string" />
+                                                    <xs:element name="telefono" minOccurs="0" type="xs:string" />
                                                 </xs:sequence>
                                                 <xs:attribute name="num" use="required" />
-                                                <xs:attribute name="registro" type="xs:date"
-                                                    use="required" />
+                                                <xs:attribute name="registro" type="xs:date" use="required" />
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
