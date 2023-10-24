@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <platos>
+        <plato>
+            <nombre>Patatas alioli</nombre>
+            <precio>2,50 €</precio>
+            <ingrdientes>Patata, salsa alioli,</ingrdientes>
+            <categoria>Entrantes</categoria>
+        </plato>
+        <plato>
+            <nombre>Carne en Salsa</nombre>
+            <precio>8,50 €</precio>
+            <ingrdientes>Carne, cebolla, zanahoria, sal, pimienta</ingrdientes>
+            <categoria>Carnes</categoria>
+        </plato>
+    </platos>
+    <platos>
+        <plato>
+            <nombre>Dorada</nombre>
+            <precio>15 €</precio>
+            <ingrdientes>Dorada, limón, sal</ingrdientes>
+            <categoria>Pescados</categoria>
+        </plato>
+        <plato>
+            <nombre>Tarta de queso</nombre>
+            <precio>5 €</precio>
+            <ingrdientes>Queso, galleta, sirope</ingrdientes>
+            <categoria>Postres</categoria>
+        </plato>
+    </platos>
+</menu>

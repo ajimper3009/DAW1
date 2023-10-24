@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad [
+    <!ELEMENT universidad (alumnos*, profesores*, asignaturas*)>
+    <!ELEMENT alumnos (alumno*)>
+    <!ELEMENT alumno (DNI,pasaporte, pais?, nombre, apellido1, apellido2, fechaNacimiento, infoExtra?)>
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT pasaporte (pais)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido1 (#PCDATA)>
+    <!ELEMENT apellido2 (#PCDATA)>
+    <!ELEMENT fechaNacimiento (#PCDATA)>
+    <!ELEMENT infoExtra (direccionPostal?, telefonos*, cuentasCorreos*)>
+    <!ELEMENT direccionPostal (#PCDATA)>
+    <!ELEMENT telefonos (tel+)>
+    <!ELEMENT tel (#PCDATA)>
+    <!ELEMENT cuentasCorreos (cuentaGmail+)>
+    <!ELEMENT cuentaGmail (#PCDATA)>
+    <!ELEMENT profesores (profesor,infoExtra?, despacho, horarioTuto, asignaturasImpartidas)>
+    <!ELEMENT despacho (#PCDATA)>
+    <!ELEMENT horarioTuto (#PCDATA)>
+    <!ELEMENT asignaturasImpartidas (#PCDATA)>
+    <!ELEMENT asignaturas (nota, codigo, creditos, carrera, curso)>
+    <!ELEMENT nota (#PCDATA)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT creditos (#PCDATA)>
+    <!ELEMENT carrera (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
+]>
+
+<universidad>
+    <alumnos>
+        <alumno>
+            <DNI></DNI>
+            <pasaporte>
+                <pais></pais>
+            </pasaporte>
+            <nombre></nombre>
+            <apellido1></apellido1>
+            <apellido2></apellido2>
+            <fechaNacimiento></fechaNacimiento>
+            <infoExtra>
+                <direccionPostal></direccionPostal>
+                <telefonos>
+                    <tel></tel>
+                </telefonos>
+                <cuentasCorreos>
+                    <cuentaGmail></cuentaGmail>
+                </cuentasCorreos>
+            </infoExtra>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor>
+            <DNI></DNI>
+            <nombre></nombre>
+            <apellido1></apellido1>
+            <apellido2></apellido2>
+            <fechaNacimiento></fechaNacimiento>
+            <infoExtra>
+                <direccionPostal></direccionPostal>
+                <telefonos>
+                    <tel></tel>
+                </telefonos>
+                <cuentasCorreos>
+                    <cuentaGmail></cuentaGmail>
+                </cuentasCorreos>
+            </infoExtra>
+            <despacho></despacho>
+            <horarioTuto></horarioTuto>
+            <asignaturasImpartidas></asignaturasImpartidas>
+        </profesor>
+    </profesores>
+    <asignaturas>
+        <nota></nota>
+        <codigo></codigo>
+        <creditos></creditos>
+        <carrera></carrera>
+        <curso></curso>
+    </asignaturas>
+</universidad>

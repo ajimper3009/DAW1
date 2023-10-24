@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+    <videojuego id="1">
+        <titulo>Mario Bros Wonder</titulo>
+        <desarrollador>Nintendo</desarrollador>
+        <lanzamiento>20/10/2023</lanzamiento>
+    </videojuego>
+    <videojuego id="2">
+        <titulo>Call of Duty Modern Warfare 3</titulo>
+        <desarrollador>Activision</desarrollador>
+        <lanzamiento>10/11/2023</lanzamiento>
+    </videojuego>
+    <videojuego id="2">
+        <titulo>League of Legends</titulo>
+        <desarrollador>Riots Games</desarrollador>
+        <lanzamiento>27/10/2009</lanzamiento>
+    </videojuego>
+</videojuegos>

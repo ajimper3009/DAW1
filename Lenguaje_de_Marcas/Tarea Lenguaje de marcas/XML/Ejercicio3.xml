@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulosInformaticos>
+    <producto>
+        <modelo>Intel Core i5-12400F 2.5 GHz</modelo>
+        <precio>163,99€</precio>
+        <descripcion>Los procesadores Intel® Core™ de 12ª generación ofrecen una combinación única de núcleos de rendimiento y eficiencia a un precio económico</descripcion>
+    </producto>
+    <producto>
+        <modelo>Asus Dual GeForce RTX 3060 OC Edition V2 12GB GDDR6</modelo>
+        <precio>329,99€</precio>
+        <descripcion>Tarjeta gráfica de calidad media a un precio medianamente económico y con potencia suficiente para correr todos los juegos de hoy en día</descripcion>
+    </producto>
+    <producto>
+        <modelo>Samsung 980 Pro SSD 1TB PCIe NVMe M.2</modelo>
+        <precio>79,98€</precio>
+        <descripcion>Sistema de almacenamiento de 1TB para garantizar el espacio con la tecnologia M.2</descripcion>
+    </producto>
+    <producto>
+        <modelo>Corsair Vengeance LPX DDR4 3200MHz PC4-25600 32GB</modelo>
+        <precio>75,99€</precio>
+        <descripcion>32 gigas de memorias RAM con posibilidad de overclocking y un disipador térmico hecho de aluminio puro para una disipación de calor más rápida</descripcion>
+    </producto>
+    <producto>
+        <modelo>ASUS Prime B760-PLUS D4</modelo>
+        <precio>129,99€</precio>
+        <descripcion>Placa base compatible con procesadores de doceava generación e ideal para montar un sistema potente y versátil</descripcion>
+    </producto>
+</articulosInformaticos>
