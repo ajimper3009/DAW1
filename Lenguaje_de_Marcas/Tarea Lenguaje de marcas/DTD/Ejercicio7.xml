@@ -32,14 +32,14 @@
 <universidad>
     <alumnos>
         <alumno>
-            <DNI></DNI>
+            <DNI>65544488G</DNI>
             <pasaporte>
                 <pais></pais>
             </pasaporte>
-            <nombre></nombre>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <fechaNacimiento></fechaNacimiento>
+            <nombre>Alejandro</nombre>
+            <apellido1>Jiménez</apellido1>
+            <apellido2>Pérez</apellido2>
+            <fechaNacimiento>5/2/1995</fechaNacimiento>
             <infoExtra>
                 <direccionPostal></direccionPostal>
                 <telefonos>
@@ -53,30 +53,30 @@
     </alumnos>
     <profesores>
         <profesor>
-            <DNI></DNI>
-            <nombre></nombre>
-            <apellido1></apellido1>
-            <apellido2></apellido2>
-            <fechaNacimiento></fechaNacimiento>
+            <DNI>88889451I</DNI>
+            <nombre>Juan</nombre>
+            <apellido1>Gomez</apellido1>
+            <apellido2>Trujillo</apellido2>
+            <fechaNacimiento>8/4/2005</fechaNacimiento>
             <infoExtra>
-                <direccionPostal></direccionPostal>
+                <direccionPostal>11596</direccionPostal>
                 <telefonos>
-                    <tel></tel>
+                    <tel>888999777</tel>
                 </telefonos>
                 <cuentasCorreos>
-                    <cuentaGmail></cuentaGmail>
+                    <cuentaGmail>Juangt@gmail.com</cuentaGmail>
                 </cuentasCorreos>
             </infoExtra>
-            <despacho></despacho>
-            <horarioTuto></horarioTuto>
-            <asignaturasImpartidas></asignaturasImpartidas>
+            <despacho>8</despacho>
+            <horarioTuto>15:00</horarioTuto>
+            <asignaturasImpartidas>Matematicas</asignaturasImpartidas>
         </profesor>
     </profesores>
     <asignaturas>
-        <nota></nota>
-        <codigo></codigo>
-        <creditos></creditos>
-        <carrera></carrera>
-        <curso></curso>
+        <nota>Sobresaliente</nota>
+        <codigo>4</codigo>
+        <creditos>74</creditos>
+        <carrera>Ingieneria Informática</carrera>
+        <curso>1</curso>
     </asignaturas>
 </universidad>
