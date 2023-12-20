@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <style type="text/css">
+        table {
+            border: 10px outset black;
+            width: 100%;
+        }
+        th, 
+        td {
+            border: 2px solid black;
+        }
+        th {
+            background-color: darkred;
+            font-size: xx-large;
+            color: white;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <table cellspacing="5px">
+        <tr>
+            <th colspan="3",>TÍTULO</th>
+        </tr>
+        <tr>
+            <td>Celda1</td>
+            <td>Celda2</td>
+            <td rowspan="2">Celda3</td>
+        </tr>
+        <tr>
+            <td>Celda4</td>
+            <td>Celda5</td>
+        </tr>
+        <tr>
+            <td colspan="2">Celda6</td>
+            <td>Celda7</td>
+        </tr>
+    </table>
+</body>
+</html>

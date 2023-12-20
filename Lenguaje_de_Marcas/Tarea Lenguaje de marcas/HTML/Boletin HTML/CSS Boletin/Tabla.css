@@ -1,0 +1,13 @@
+table {
+    border: solid black;
+    background: aqua;
+}
+th {
+    border: solid black;
+}
+table#Tabla2 {
+    background-color: deeppink;
+}
+h1 {
+    text-align: center;
+}

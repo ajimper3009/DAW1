@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 70%;
+            margin: auto;
+            background-color: black;
+        }
+        .gridcontenedor {
+            border-radius: 15%;
+            background-color: lightsalmon;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-auto-rows: 100px;
+            gap: 20px;
+            min-height: 100vh;
+            
+        }
+        .gridcontenedor div {
+            background-color: lightblue;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        div.c1 {
+            grid-row: 1/3;
+            background-color: lightgreen;
+        }
+        
+        
+       
+    </style>
+</head>
+<body class="gridcontenedor">
+    <div class="c1">Contenedor1</div>
+    <div>Contenedor2</div>
+    <div>Contenedor3</div>
+    <div>Contenedor4</div>
+    <div>Contenedor5</div>
+    <div>Contenedor6</div>
+    <div>Contenedor7</div>
+    <div>Contenedor8</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="./CSS Boletin/Tabla.css">
+    <script>
+        function validarFormulario() {
+            alert("Ahora valido el formulario")
+        }
+    </script>
+</head>
+<body>
+    <h1>Curriculum</h1>
+    <table align="center">
+        <main>
+        <form action="#" method="get" onsubmit="validarFormulario">
+        <tr>
+            <th>DNI *</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+        </tr>
+            <th><label for="DNI" name="DNI"></label>
+                <input type="text" name="DNI" required maxlength="9"></th>
+
+            <th><label for="nombre"></label>
+                <input type="text" name="nombre"></th>
+
+            <th><label for="Dirección"></label>
+                <input type="text" name="Dirección"></th>
+        <tr>
+            <th colspan="3">"</th>
+        </tr>
+        <tr>
+            <th>Estado civil</th>
+            <th>Experencia Laboral</th>
+            <th>Idiomas</th>
+            
+        </tr>
+        <tr>
+            <th align="left">
+                <input type="radio" name="seleccion1" value="seleccion1">
+                <label for="seleccion">Soletero</label><br>
+
+                <input type="radio" name="seleccion2" value="seleccion2">
+                <label for="seleccion">Casado</label><br>
+
+                <input type="radio" name="seleccion3" value="seleccion3">
+                <label for="seleccion">Viudo</label><br>
+
+                <input type="radio" name="seleccion" value="seleccion4">
+                <label for="seleccion">Divorciado</label>
+            </th>
+            <th align="left">
+                <input type="checkbox" name="seleccion1" value="seleccion1">
+                <label for="seleccion">Construcción</label><br>
+
+                <input type="checkbox" name="seleccion2" value="seleccion2">
+                <label for="seleccion">Administración</label><br>
+
+                <input type="checkbox" name="seleccion3" value="seleccion3">
+                <label for="seleccion">Hostelería</label><br>
+            </th>
+            <th align="left">
+                <input type="checkbox" name="seleccion1" value="seleccion1">
+                <label for="seleccion">Inglés</label><br>
+
+                <input type="checkbox" name="seleccion2" value="seleccion2">
+                <label for="seleccion">Francés</label><br>
+
+                <input type="checkbox" name="seleccion3" value="seleccion3">
+                <label for="seleccion">Alemán</label>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="3">"</th>
+        </tr>
+    </table>
+    <br>
+    <table align="center" id="Tabla2">
+        <tr>
+            <th><input type="submit" value="Aceptar"></th>
+            <th><input type="reset" value="Borrar"></th>
+        </tr>
+        </form>
+    </main>
+    </table>
+
+</body>
+</html>
