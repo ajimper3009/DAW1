@@ -1,0 +1,46 @@
+Metodo1: StringUtils.isEmpty()
+
+	El método 1 comprueba si la cadena seleccionada esta vacía o es nula
+	
+	String cadena1 = "Hola, mundo!";
+	
+	if (StringUtils.isEmpty(cadena1)) {
+    	System.out.println("La cadena está vacía o es nula");
+	} else {
+    	System.out.println("La cadena no está vacía");
+	}
+	
+Método2: StringUtils.substring()
+	
+	El método 2 te devuelve parte de la cadena en función de los caracteres
+	que le indiquemos 
+	
+	String cadena2 = "Esta es una cadena";
+	String sub = StringUtils.substring(cadena3, 7, 15);
+	System.out.println(sub);
+	
+Método3: StringUtils.replace()
+
+	Este método cambia las palabras de una cadena con otra cadena
+
+	String cadena3 = "Hoy es un buen día para aprender";
+	String replaced = StringUtils.replace(cadena3, "buen", "excelente");
+	System.out.println(replaced);
+	
+Método4: StringUtils.strip()
+
+	Utilizaremos este método para eliminar los espacios en blanco exclusivamente
+	del principio y el final de la cadena
+	
+	String input = "   Elimina espacios en blanco   ";
+	String stripped = StringUtils.strip(input);
+	System.out.println("Cadena después de eliminar espacios en blanco: " + stripped);
+	
+Método5: StringUtils.isNumeric
+
+	El siguiente método lo usaremos para verificar si una cadena esta compuesta
+	unicamente por números
+
+	String numericStr = "12345";
+	boolean isNumeric = StringUtils.isNumeric(numericStr);
+	System.out.println("¿Es una cadena numérica? " + isNumeric);
