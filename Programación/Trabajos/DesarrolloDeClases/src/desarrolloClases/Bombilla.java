@@ -1,5 +1,6 @@
 package desarrolloClases;
 
+
 public class Bombilla {
 
 	private String marca;
@@ -13,6 +14,14 @@ public class Bombilla {
 		this.marca = marca;
 		this.potencia = potencia;
 		this.precio = precio;
+		this.encendida = false;
+	}
+	
+	public Bombilla () {
+		
+		this.marca = "";
+		this.potencia = 0d;
+		this.precio = 0d;
 		this.encendida = false;
 	}
 	
@@ -57,6 +66,25 @@ public class Bombilla {
 		this.encendida = false;
 	}
 	
+	@Override
+	public String toString() {
+		String estado = this.encendida ? "Encendida" : "Apagada";
+		return "Bombilla [marca=" + marca + ", potencia=" + ", precio" + " €. " + estado +"]";
+	}
+
+
+	public boolean equals(Bombilla bombilla) {
+		boolean equals = false;
+		Bombilla aux = new Bombilla(); 
+		if (bombilla instanceof Bombilla) {
+			aux = ((Bombilla )bombilla);
+			equals = this.marca.equals(aux.getMarca()) && this.potencia == bombilla.potencia;
+			
+		}
+		return equals;
+	}
+
+
 	public void cambiarMarca(String marca) {
 		this.marca = marca;
 	}
