@@ -1,0 +1,6 @@
+Obtener los párrafos de los capitulos
+/libro/capitulo/parrafo
+obtener los números de los capitulos
+/libro/capitulo/@num
+obtener el titulo del capitulo
+/libro/titulo

@@ -1,0 +1,28 @@
+1.- Nombre del propietario
+/agenda/propietario/identificadores/nombre
+//propietario//nombre
+
+2.- Telefono de casa
+/agenda/propietario/telefonos/casa
+//propietario//casa
+
+3.- Nombre y apellido  del propietario
+//propietario//identificadores
+//propietario//nombre | //propietario//apellidos
+
+4.- Nombre e id de cada contacto
+//contactos/persona/identificadores/nombre | //contactos/persona/@id
+
+5.- Datos del contacto con identificador p02 == id= "p02"
+//contactos/persona[@id="p02"]
+
+6.- Nombre del contacto con identificador p02 == id="p02"
+//contactos/persona/[@id="p02"]/identificadores/nombre
+//contactos/persona[@id="p02"]//nombre
+
+7.- identificadores de los contactos que tiene telefono en casa
+//contactos//telefonos/casa
+//contactos//telefonos/casa/../../@id
+
+8.- Telefono movil de la persona que se llama ines
+//contacto/persona/identificadores[nombre="Ines"]/../telefonos/movil

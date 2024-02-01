@@ -1,0 +1,29 @@
+1.- sort(T[] a)
+
+	Este método se utiliza para ordenar un array de objetos en orden ascendente según
+	su orden natural o según un comparador proporcionado
+	
+2.- binarySearch(T[] a, T key)
+
+	Sirve para realizar una busqueda binaria en una array ordenada, este método devuelve
+	el índice del elemento buscado, o un valor negativo si el elemneto no está presente
+
+3.- equals(T[] a, T[] a2)
+
+	Realiza la comparación de dos arrays para verificar si tienen los mismos elementos
+	en el mismo orden
+	
+4.- fill(T[] a, T val)
+
+	El método se encargará de asignar un valor a cada elemento determinado de una array
+	
+5.- copyOf(T[] original, int newLength)
+
+	Creará un nuevo array del tipo de elementos del array original, copia los elementos
+	del array original al nuevo array, y si es necesario el resto del nuevo array con
+	valores predeterminados
+	
+6.- toString(T[] a)
+
+	Se usa para obtener una representación de cadena legible de un array. Toma una array
+	como argumento y devuelve una cadena que representa el contenido del array
