@@ -1,0 +1,61 @@
+package ejerciciosClase.unidad5.cuentaBancarias;
+
+import java.util.Scanner;
+
+public class CuentasBancariasMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Banco banco = new Banco();
+	CuentaBancaria cb = new CuentaAhorro("","","",0d,"", 0d);
+	banco.abrirCuenta(null);
+	for (CuentaBancaria cuenta : banco.getCuentas()) {
+		System.out.println(cuenta);
+	}
+	Scanner scan = new Scanner(System.in);	
+	boolean salir = false;
+	do {
+		System.out.println("Elije una opcion\n");
+		
+		System.out.println("1. Abrir una nueva cuenta.\n"
+							+ "2. Ver un listado de las cuentas disponibles (código de cuenta, titular y saldo actual)\n"
+							+ "3. Obtener los datos de una cuenta concreta.\n"
+							+ "4. Realizar un ingreso en una cuenta.\n"
+							+ "5. Retirar efectivo de una cuenta.\n"
+							+ "6. Consultar el saldo actual de una cuenta.\n"
+							+ "7. Salir de la aplicación.");
+		int opcion = scan.nextInt();
+		switch (opcion) {
+			
+			case 1:
+				
+				break;
+			case 2:
+				
+				break;
+			case 3:
+				
+				break;
+			case 4:
+				
+				break;
+			case 5:
+				
+				break;
+			case 6:
+				
+				break;
+			case 7:
+				salir = true;
+				System.out.println("Gracias por utilizar nuestro programa");
+				
+				break;
+
+			default:
+				break;
+			}
+		} while (!salir);
+
+	}
+
+}

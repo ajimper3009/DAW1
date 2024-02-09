@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>Cádiz CF</nombre>
+        <ciudad>Cádiz</ciudad>
+        <estadio>Estadio Ramón de Carranza</estadio>
+        <entrenador>Juan Carlos Cervera</entrenador>
+        <jugadores_estrella>
+            <jugador>
+                <nombre>Álvaro Negredo</nombre>
+                <posicion>Delantero</posicion>
+                <edad>36</edad>
+            </jugador>
+            <jugador>
+                <nombre>Salvi Sánchez</nombre>
+                <posicion>Centrocampista</posicion>
+                <edad>29</edad>
+            </jugador>
+            <jugador>
+                <nombre>Carlos Akapo</nombre>
+                <posicion>Defensor</posicion>
+                <edad>29</edad>
+            </jugador>
+        </jugadores_estrella>
+    </equipo>
+    <equipo>
+        <nombre>Real Betis Balompié</nombre>
+        <ciudad>Sevilla</ciudad>
+        <estadio>Estadio Benito Villamarín</estadio>
+        <entrenador>Manuel Pellegrini</entrenador>
+        <jugadores_estrella>
+            <jugador>
+                <nombre>Nabil Fekir</nombre>
+                <posicion>Delantero</posicion>
+                <edad>28</edad>
+            </jugador>
+            <jugador>
+                <nombre>Sergio Canales</nombre>
+                <posicion>Centrocampista</posicion>
+                <edad>30</edad>
+            </jugador>
+            <jugador>
+                <nombre>Aïssa Mandi</nombre>
+                <posicion>Defensor</posicion>
+                <edad>30</edad>
+            </jugador>
+        </jugadores_estrella>
+    </equipo>
+    <equipo>
+        <nombre>Sevilla FC</nombre>
+        <ciudad>Sevilla</ciudad>
+        <estadio>Estadio Ramón Sánchez-Pizjuán</estadio>
+        <entrenador>Julen Lopetegui</entrenador>
+        <jugadores_estrella>
+            <jugador>
+                <nombre>Jesús Navas</nombre>
+                <posicion>Defensor</posicion>
+                <edad>35</edad>
+            </jugador>
+            <jugador>
+                <nombre>Suso</nombre>
+                <posicion>Centrocampista</posicion>
+                <edad>27</edad>
+            </jugador>
+            <jugador>
+                <nombre>Youssef En-Nesyri</nombre>
+                <posicion>Delantero</posicion>
+                <edad>24</edad>
+            </jugador>
+        </jugadores_estrella>
+    </equipo>
+</equipos>

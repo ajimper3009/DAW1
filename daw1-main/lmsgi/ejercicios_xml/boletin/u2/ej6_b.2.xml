@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura num="999">
+  <cliente numero="879" nombre="José Rodriguez" telefono="910101010"/>
+    
+  <Datos_Factura>
+    <articulo ref="A101" Descripcion="Placa Base QDI" Cantidad="1" Precio="230"/>
+    <articulo ref="A103" Descripcion="DIMM DDR 512MB" Cantidad="4" Precio="110"/>
+    <articulo ref="A107" Descripcion="Disco Duro 800GB" Cantidad="1" Precio="150"/>
+  </Datos_Factura>
+</factura>

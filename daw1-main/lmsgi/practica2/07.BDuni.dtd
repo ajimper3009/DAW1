@@ -1,0 +1,37 @@
+<!ELEMENT BDuni (asignaturas, profesores, alumnos)>
+
+<!ELEMENT asignaturas (asignatura)*>
+<!ELEMENT asignatura (codigo,nom_asig,creditos,carrera,curso)>
+<!ATTLIST asignatura tipo (optativa | obligatoria) #REQUIRED>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nom_asig (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+
+<!ELEMENT profesores (profesor)*>
+<!ELEMENT profesor (datos,despacho,tutoria,asig_impartida)>
+
+<!ELEMENT datos ((dni | (pasaporte, pais)),nombre,((apellido1, apellido2) | apellido),fnacimiento,direccion?,telefono*,email*)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pasaporte (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT fnacimiento (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT despacho (#PCDATA)>
+<!ELEMENT tutoria (#PCDATA)>
+<!ELEMENT asig_impartida (asig*)>
+<!ELEMENT asig (#PCDATA)>
+
+<!ELEMENT alumnos (alumno)*>
+<!ELEMENT alumno (datos, matricula)>
+<!ELEMENT matricula (asig_alumno*)>
+<!ELEMENT asig_alumno (#PCDATA)>
+<!ATTLIST asig_alumno nota (NP | SS | AP | NT | SB | MH) #IMPLIED>

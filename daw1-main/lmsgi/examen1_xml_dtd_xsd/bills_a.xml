@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas [
+<!ELEMENT facturas (factura*)>
+
+<!ELEMENT factura (recibo, entrega+)>
+<!ATTLIST factura id CDATA #REQUIRED>
+
+<!ELEMENT recibo (producto+, cod_receptor)>
+<!ELEMENT producto (nombre, fragil?, cantidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fragil EMPTY>
+<!ELEMENT cantidad (total)>
+<!ELEMENT total (#PCDATA)>
+<!ATTLIST cantidad unidad (kg | unidad) #REQUIRED>
+
+<!ELEMENT cod_receptor (#PCDATA)>
+
+<!ELEMENT entrega (distancia, coste)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+]>
+<facturas>
+    <factura id="1">
+        <recibo>
+            <producto>
+                <nombre>Kiwi a granel</nombre>
+                <fragil/>
+                <cantidad unidad="kg">
+                    <total>125.5</total>
+                </cantidad>
+            </producto>
+            <cod_receptor>333-AZT</cod_receptor>
+        </recibo>
+        <entrega>
+            <distancia>468</distancia>
+            <coste>1238.45</coste>
+        </entrega>
+    </factura>
+    <factura id="2">
+        <recibo>
+            <producto>
+                <nombre>Patata</nombre>
+                <cantidad unidad="kg">
+                    <total>98</total>
+                </cantidad>
+            </producto>
+            <producto>
+                <nombre>Mandarina cesta</nombre>
+                <fragil/>
+                <cantidad unidad="unidad">
+                    <total>200</total>
+                </cantidad>
+            </producto>
+            <producto>
+                <nombre>Champiñones laminados bandeja</nombre>
+                <cantidad unidad="unidad">
+                    <total>70</total>
+                </cantidad>
+            </producto>
+            <cod_receptor>340-KJM</cod_receptor>
+        </recibo>
+        <entrega>
+            <distancia>81</distancia>
+            <coste>721.3</coste>
+        </entrega>
+        <entrega>
+            <distancia>81</distancia>
+            <coste>102</coste>
+        </entrega>
+    </factura>
+</facturas>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prioridades CSS</title>
+    <link type="text/css" rel="stylesheet" href="./resources/css/mis_estilos.css" />
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p#masBorde{
+            border: tomato solid 10px;
+        }
+        p.conBorde{
+            border: #9A334F solid 6px;
+        }
+        p {
+            border: blue solid 1px;
+        }
+        
+
+        div.aviso span.especial {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="background-color: bisque;">Lorem ipsum!</p>
+    <div class="aviso">
+        <span class="">sdjsh</span>
+        <p>Hola <span class="especial">sdjsh</span></p>
+        <p id="masBorde" class="conBorde">Hola <em>sdjsh</em></p>
+    </div>
+</body>
+
+</html>

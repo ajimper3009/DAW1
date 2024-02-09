@@ -1,0 +1,58 @@
+<!-- Ejercicio propuesto
+Crea una página con la siguiente estructura.
+En la parte superior debe haber un título grande (mayor que H1) con el nombre de la tienda y el logo a su derecha. 
+El logo ocupará el 15% del ancho con 200px de altura.
+luego habrá un menú horizontal donde haya una lista de enlaces:
+Motherboards, Discos duros, memorias, Tarjetas gráficas, períféricos
+Deben ocupar el ancho completo de la página, centrando el texto en cada uno de ellos
+A continuación encontrarás el contenido.
+Título con el artículo arriba en el centro
+luego una descripción breve y una lista con las características
+a continuación el precio y un botón para añadir al carro de compra
+En la parte de abajo hay una barra con los datos de la tienda que ocupa el 100% del ancho. 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/01_c.css">
+    <meta charset="utf-8">
+    <title>Ej_01_c ejercicio de posicionamiento</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo"><img height="200px" alt="Tienda Trafalgar" src="./img/tts.png"/></div>
+        <div id="marca"><h1>TRAFALGAR TECH STORE</h1></div>
+    </header>
+    <div class="clear"></div>
+    <nav>
+        <ul>
+            <li><a href="#">Motherboards</a></li>
+            <li><a href="#">Discos duros</a></li>
+            <li><a href="#">Memorias</a></li>
+            <li><a href="#">Tarjetas gráficas</a></li>
+            <li><a href="#">Períféricos</a></li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <main>
+        <header><h2>Kingston A400 SSD 480GB</h2></header>
+        <section>
+            <article class="desc">
+                <p>Descripción breve de un disco duro SSD de 480GB de la marca Kingston</p>
+                <ul>
+                    <li>Rápido</li>
+                    <li>Poco consumo</li>
+                    <li>Fácil de instalar</li>
+                    <li>Ligero</li>
+                </ul>
+            </article>
+            <article class="foto"><img alt="Kingston A400" src="./img/SSD.webp"></article>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer><h5>Pie de página</h5></footer>
+</body>
+
+</html>

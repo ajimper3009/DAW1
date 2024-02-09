@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:lib="http://www.ejemplo.com/libro">
+    <lib:libro isbn="978-1234567890">
+        <lib:titulo>Don Quijote de la Mancha</lib:titulo>
+        <lib:autores>
+            <lib:autor>Miguel de Cervantes Saavedra</lib:autor>
+        </lib:autores>
+        <lib:editorial>Editorial ABC</lib:editorial>
+        <lib:fecha_publicacion>01/01/1605</lib:fecha_publicacion>
+        <lib:precio>24.99</lib:precio>
+        <lib:num_paginas>928</lib:num_paginas>
+    </lib:libro>
+    <lib:libro isbn="978-2345678901">
+        <lib:titulo>Los Pilares de la Tierra</lib:titulo>
+        <lib:autores>
+            <lib:autor>Ken Follett</lib:autor>
+        </lib:autores>
+        <lib:editorial>Editorial XYZ</lib:editorial>
+        <lib:fecha_publicacion>15/09/1989</lib:fecha_publicacion>
+        <lib:precio>29.99</lib:precio>
+        <lib:num_paginas>1102</lib:num_paginas>
+    </lib:libro>
+    <lib:libro isbn="978-3456789012">
+        <lib:titulo>La Sombra del Viento</lib:titulo>
+        <lib:autores>
+            <lib:autor>Carlos Ruiz Zafón</lib:autor>
+        </lib:autores>
+        <lib:editorial>Editorial LMN</lib:editorial>
+        <lib:fecha_publicacion>20/05/2001</lib:fecha_publicacion>
+        <lib:precio>19.95</lib:precio>
+        <lib:num_paginas>487</lib:num_paginas>
+    </lib:libro>
+    <lib:libro isbn="978-4567890123">
+        <lib:titulo>El Código Da Vinci</lib:titulo>
+        <lib:autores>
+            <lib:autor>Dan Brown</lib:autor>
+        </lib:autores>
+        <lib:editorial>Editorial OPQ</lib:editorial>
+        <lib:fecha_publicacion>18/03/2003</lib:fecha_publicacion>
+        <lib:precio>22.50</lib:precio>
+        <lib:num_paginas>689</lib:num_paginas>
+    </lib:libro>
+</libros>

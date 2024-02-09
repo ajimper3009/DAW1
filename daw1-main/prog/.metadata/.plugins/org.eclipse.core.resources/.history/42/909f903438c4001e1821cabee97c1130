@@ -1,0 +1,13 @@
+package ejerciciosClase.unidad5.cuentaBancarias;
+
+public class Banco {
+
+	CuentaBancaria [] cuentas;
+	
+	//Constructores
+	public Banco () {
+		this.cuentas = new CuentaBancaria [100];
+	}
+	
+	
+}

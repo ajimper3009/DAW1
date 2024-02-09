@@ -1,0 +1,5 @@
+package ejerciciosClase.unidad5.empresa;
+
+public class EmpresaExeption extends Exception {
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentasBancariasMain"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaAhorro"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.builder.StandardToStringStyle"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaCorriente"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaCorrientePersonal"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.Imprimible"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.persona.Persona"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.EmpresaExeption"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.Empleado"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.persona"/>
+</qualifiedTypeNameHistroy>

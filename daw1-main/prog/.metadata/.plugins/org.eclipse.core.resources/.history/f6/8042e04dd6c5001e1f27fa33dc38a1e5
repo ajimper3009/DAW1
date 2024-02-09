@@ -1,0 +1,5 @@
+package ejerciciosClase.unidad5.cuentaBancarias;
+
+public class CuentaBancariaDatosIncorrectosException extends Exception {
+
+}

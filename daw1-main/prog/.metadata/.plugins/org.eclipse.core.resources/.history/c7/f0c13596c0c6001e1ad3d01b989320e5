@@ -1,0 +1,14 @@
+package ejerciciosClase.unidad5.empresa;
+
+public class Pruebas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		persona persona1 = new persona("Ana", "Jimenez", "33333333T");
+		System.out.println(persona1);
+		
+		
+	}
+
+}

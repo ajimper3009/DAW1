@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <plato>
+        <nombre>Pizza Margherita</nombre>
+        <precio moneda="euro">10.99</precio>
+        <descripcion>Pizza con salsa de tomate, mozzarella fresca y albahaca.</descripcion>
+        <categoria>Basic</categoria>
+    </plato>
+    <plato>
+        <nombre>Pizza Pepperoni</nombre>
+        <precio moneda="euro">11.99</precio>
+        <descripcion>Pizza con salsa de tomate, queso mozzarella y rodajas de pepperoni.</descripcion>
+        <categoria>Basic</categoria>
+    </plato>
+    <plato>
+        <nombre>Pizza Vegetariana</nombre>
+        <precio moneda="euro">12.49</precio>
+        <descripcion>Pizza con salsa de tomate, mozzarella, champiñones, pimientos y aceitunas.</descripcion>
+        <categoria>Premium</categoria>
+    </plato>
+    <plato>
+        <nombre>Pizza BBQ</nombre>
+        <precio moneda="euro">12.99</precio>
+        <descripcion>Pizza con salsa BBQ, pollo a la parrilla, cebolla y queso cheddar.</descripcion>
+        <categoria>Premium</categoria>
+    </plato>
+</menu>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        input:valid {
+            border-color: greenyellow;
+        }
+        input:invalid {
+            border-color: red;
+        }
+        input[required]::after {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>FORMULARIOS</h1>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <section>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Datos del usuario</legend>
+                    <label for="alias">Alias</label>
+                    <input type="text" name="alias" required title="descripción de qué puede contener" /><br/><br/><br/>
+                    <label for="localidad">Localidad</label>
+                    <input type="text" name="localidad" /><br/>
+                    <label for="contrasenia">Contraseña</label>
+                    <input type="password" name="contrasenia" /><br/>
+                    <label for="e-mail">e-m@il</label>
+                    <input type="email" name="e-mail" autofocus placeholder="tuemail@email.com" /><br/>
+                    <label for="fecha_nac">Fecha de nacimiento</label>
+                    <input type="date" name="fecha_nac" /><br/>
+                    <label for="numero">Edad</label>
+                    <input type="number" name="numero" /><br/>
+                    <label for="seleccion">Selección</label><br/>
+                    <input type="checkbox" name="sel1" value="seleccion1" >Sel1</checkbox><br/>
+                    <input type="checkbox" name="sel2" value="seleccion2" >Sel2</checkbox><br/>
+                    <label for="seleccion_unica">Selección única</label><br/>
+                    <input type="radio" name="seleccion_unica" value="seleccion1" >Sel1</checkbox><br/>
+                    <input type="radio" name="seleccion_unica" value="seleccion2" >Sel2</checkbox><br/>
+                    <label for="archivo">Sube un adjunto</label><br/>
+                    <input type="file" name="archivo" accept="audio/*"><br/>
+                    <select name="transporte">
+                        <option value="coche">Coche</option>
+                        <option value="avion">Avión</option>
+                        <option value="tren" selected>Tren</option>
+                        </select>
+                    <input type="submit" value="OK!">
+                    <input type="reset" value="BORRAR">
+
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

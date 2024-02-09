@@ -1,0 +1,8 @@
+package ejerciciosClase.unidad5.cuentaBancarias;
+
+public class Banco {
+
+	CuentaBancaria [] cuentas;
+	
+	
+}

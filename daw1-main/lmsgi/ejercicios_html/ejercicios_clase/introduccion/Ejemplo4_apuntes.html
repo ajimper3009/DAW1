@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla ejemplo 4</title>
+    <style>
+        /*Aquí definimos los estilos*/
+        table {
+            border: 10px outset black;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            background-color: darkred;
+            font-size: xx-large;
+            color:white;
+        }
+        .gris {
+            background-color: lightgrey;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table cellspacing="5px">
+        <tr>
+            <th colspan="3">TÍTULO</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td rowspan="2">Celda 3</td>
+        </tr>
+        <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="gris">Celda 6</td>
+            <td class="gris">Celda 7</td>
+        </tr>
+    </table>
+</body>
+
+</html>

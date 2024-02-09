@@ -1,0 +1,23 @@
+package ejerciciosClase.unidad5.cuentaBancarias;
+
+public class Banco {
+
+	CuentaBancaria [] cuentas;
+	
+	//Constructores
+	public Banco () {
+		this.cuentas = new CuentaBancaria [100];
+	}
+	
+	//Metodos de la clase
+	/**
+	 * abrirCuertan
+	 */
+	
+	public boolean abrirCuenta(CuentaBancaria cuenta) {
+		if ()
+		
+		return false;
+		
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="09.vehiculos.xsd">
+    <vehiculo>
+      <marca>Ford</marca>
+      <modelo>Focus</modelo>
+      <f_fabricacion dia="1" mes="3" anio="2021"/>
+      <lugar_fabricacion pais="US">
+        <localidad>EEUU</localidad>
+      </lugar_fabricacion>
+      <unidades>10</unidades>
+    </vehiculo>
+    <vehiculo>
+      <marca>Renault</marca>
+      <modelo>Scenic</modelo>
+      <f_fabricacion dia="10" mes="6" anio="2022"/>
+      <lugar_fabricacion pais="FR">
+        <localidad>Europa</localidad>
+      </lugar_fabricacion>
+      <unidades>5</unidades>
+    </vehiculo>
+  </vehiculos>

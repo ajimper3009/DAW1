@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro isbn="978-1234567890">
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autores>
+        <autor>Miguel de Cervantes Saavedra</autor>
+    </autores>
+    <editorial>Editorial ABC</editorial>
+    <fecha_publicacion>01/01/1605</fecha_publicacion>
+    <precio>24.99</precio>
+    <num_paginas>928</num_paginas>
+</libro>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<padre>
+    <hijo1>
+        <nombre>Juan<apellido>Pérez</apellido>
+        </nombre>
+    </hijo1>
+    <hijo2>
+	<!-- Re-ordenar las etiquetas para mantener la estructura de árbol del XML-->
+        <nombre>Luis<apellido>García</apellido>
+        </nombre>
+    </hijo2>
+</padre>

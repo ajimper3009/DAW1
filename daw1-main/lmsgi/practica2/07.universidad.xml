@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE BDuni SYSTEM "07.BDuni.dtd">
+
+<BDuni>
+<asignaturas>
+  	<asignatura tipo="optativa">
+		<codigo>01</codigo>
+		<nom_asig>Lenguaje de marcas</nom_asig>
+		<creditos>10</creditos>
+		<carrera>Ingenieria Informatica</carrera>
+		<curso>1º</curso>
+	</asignatura>
+	
+	<asignatura tipo="obligatoria">
+		<codigo>02</codigo>
+		<nom_asig>Programacion</nom_asig>
+		<creditos>15</creditos>
+		<carrera>Ingenieria Informatica</carrera>
+		<curso>1º</curso>
+	</asignatura>
+	
+	<asignatura tipo="obligatoria">
+		<codigo>03</codigo>
+		<nom_asig>Seguridad</nom_asig>
+		<creditos>15</creditos>
+		<carrera>Ingenieria Informatica</carrera>
+		<curso>2º</curso>
+	</asignatura>
+</asignaturas>
+
+<profesores>
+    <profesor>
+  	  <datos>
+	  	<dni>100200300</dni>
+		<nombre>Juan</nombre>
+		<apellido1>Perez</apellido1>
+		<apellido2>Perez</apellido2>
+		<fnacimiento>01/01/1975</fnacimiento>
+		<direccion>Avda. Andalucia, 1</direccion>
+		<telefono>600600600</telefono>
+		<email>juan@email.com</email>
+	  </datos>
+	  <despacho>D12</despacho>
+	  <tutoria>L-10:00</tutoria>
+	  <asig_impartida>
+	    <asig>Lenguaje de marcas</asig>
+		<asig>Programacion</asig>
+	  </asig_impartida>
+	</profesor>
+	
+	<profesor>
+  	  <datos>
+	  	<pasaporte>100200300</pasaporte>
+		<pais>EEUU</pais>
+		<nombre>Mark</nombre>
+		<apellido>Johnson</apellido>
+		<fnacimiento>01/01/1970</fnacimiento>
+		<telefono>700700700</telefono>
+		<email>mark@email.com</email>
+		<email>johnson@email.com</email>
+	  </datos>
+	  <despacho>D15</despacho>
+	  <tutoria>J-12:00</tutoria>
+	  <asig_impartida>
+	    <asig>Aplicaciones Web</asig>
+		<asig>Seguridad</asig>
+	  </asig_impartida>
+	</profesor>
+</profesores>
+  
+<alumnos>
+    <alumno>
+	  <datos>
+		<dni>44100100</dni>
+		<nombre>Antonio</nombre>
+		<apellido1>Gomez</apellido1>
+		<apellido2>Gomez</apellido2>
+		<fnacimiento>01/01/1995</fnacimiento>
+		<direccion>Avda. La Paz, 1</direccion>
+		<telefono>959100100</telefono>
+		<email>antonio@email.com</email>
+	  </datos>
+	  <matricula>
+	    <asig_alumno nota="NP">Lenguaje de marcas</asig_alumno>
+		<asig_alumno nota="NP">Seguridad</asig_alumno>
+	  </matricula>
+	</alumno>
+	
+	<alumno>
+	  <datos>
+		<dni>44200200</dni>
+		<nombre>Luis</nombre>
+		<apellido1>Ronquero</apellido1>
+		<apellido2>Ronquero</apellido2>
+		<fnacimiento>01/01/1999</fnacimiento>
+		<direccion>Avda. Andalucia, 10</direccion>
+		<telefono>700100100</telefono>
+		<email>luis@email.com</email>
+	  </datos>
+	  <matricula>
+	    <asig_alumno nota="NP">Lenguaje de marcas</asig_alumno>
+		<asig_alumno nota="NP">Aplicaciones Web</asig_alumno>
+	  </matricula>
+	</alumno>
+
+</alumnos>
+</BDuni>

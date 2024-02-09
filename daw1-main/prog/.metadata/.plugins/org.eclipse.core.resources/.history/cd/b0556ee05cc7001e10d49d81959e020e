@@ -1,0 +1,14 @@
+package ejerciciosClase.unidad5.empresa;
+
+public class Empresa extends Empleado {
+
+	//Atributos
+	private String nombre;
+	private String cif;
+	private int telefono;
+	private String direccion;
+	private String [] empleados;
+	//Constructores
+	
+	
+}

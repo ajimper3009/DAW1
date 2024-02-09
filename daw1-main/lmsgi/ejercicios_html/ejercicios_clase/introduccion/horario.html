@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario DAW</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 100px;
+            border: 2px solid black;
+        }
+
+        caption {
+            font-size: 1.17em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: center;
+        }
+
+        th,
+        .hora {
+            background-color: #f2f2f2;
+            font-weight: bolder;
+            min-width: max-content;
+        }
+
+        #recreo {
+            background-color: ivory;
+            font-weight: bolder;
+            border: 2px solid black;
+        }
+
+        .bordeDerecho {
+            border-right: 2px solid black;
+        }
+
+        .bordeInferior {
+            border-bottom: 2px solid black;
+        }
+        .azul{
+            background-color: aliceblue;
+        }
+        .naranja {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Horarios Ciclos Formativos</h2>
+
+    <table>
+        <caption>Horario 1º DAW 2023-2024</caption>
+        <tr>
+            <th>Hora</th>
+            <th class="bordeInferior">Lunes</th>
+            <th class="bordeInferior">Martes</th>
+            <th class="bordeInferior">Miércoles</th>
+            <th class="bordeInferior">Jueves</th>
+            <th class="bordeInferior">Viernes</th>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">15:30 - 16:30</td>
+            <td class="naranja" rowspan="2">Lenguajes de marcas y sistemas de gestión de información</td>
+            <td class="azul" rowspan="2">Programación</td>
+            <td class="azul" rowspan="2">Programación</td>
+            <td>Entornos de Desarrollo</td>
+            <td class="azul" rowspan="2">Programación</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">16:30 - 17:30</td>
+            <td rowspan="2">Bases de Datos</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">17:30 - 18:30</td>
+            <td>Bases de Datos</td>
+            <td>Formación y Orientación Laboral</td>
+            <td>Entornos de Desarrollo</td>
+            <td>Sistemas Informáticos</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">18:30 - 18:45</td>
+            <td id="recreo" colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">18:45 - 19:45</td>
+            <td>Bases de Datos</td>
+            <td>Formación y Orientación Laboral</td>
+            <td>Entornos de Desarrollo</td>
+            <td>Formación y Orientación Laboral</td>
+            <td>Sistemas Informáticos</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">19:45 - 20:45</td>
+            <td rowspan="2">Sistemas Informáticos</td>
+            <td rowspan="2">Bases de Datos</td>
+            <td rowspan="2">Sistemas Informáticos</td>
+            <td class="azul" rowspan="2">Programación</td>
+            <td class="naranja" rowspan="2">Lenguajes de marcas y sistemas de gestión de información</td>
+        </tr>
+        <tr>
+            <td class="hora bordeDerecho">20:45 - 21:45</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

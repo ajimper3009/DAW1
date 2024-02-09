@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_informatica>
+    <producto id="1">
+        <nombre>Portatil Lenovo ThinkPad X1 Carbon</nombre>
+        <precio moneda="euro">1199.99</precio>
+        <descripcion>Portatil empresarial ultraligero y resistente</descripcion>
+        <marca>Lenovo</marca>
+        <procesador>Intel Core i7</procesador>
+        <almacenamiento>512GB SSD</almacenamiento>
+        <memoria_ram>16GB</memoria_ram>
+    </producto>
+    <producto id="2">
+        <nombre>Servidor Dell PowerEdge R740</nombre>
+        <precio moneda="euro">2499.99</precio>
+        <descripcion>Servidor empresarial de alto rendimiento</descripcion>
+        <marca>Dell</marca>
+        <procesador>2 x Intel Xeon Gold 6132</procesador>
+        <almacenamiento>4TB HDD</almacenamiento>
+        <memoria_ram>64GB</memoria_ram>
+    </producto>
+    <producto id="3">
+        <nombre>Impresora Industrial Zebra ZT410</nombre>
+        <precio moneda="euro">999.99</precio>
+        <descripcion>Impresora de etiquetas para entornos industriales</descripcion>
+        <marca>Zebra</marca>
+        <tecnologia>Transferencia térmica y térmica directa</tecnologia>
+        <resolucion>300 dpi</resolucion>
+    </producto>
+    <producto id="4">
+        <nombre>Sistema de Almacenamiento NetApp FAS2750</nombre>
+        <precio moneda="euro">5499.99</precio>
+        <descripcion>Sistema de almacenamiento de nivel empresarial</descripcion>
+        <marca>NetApp</marca>
+        <capacidad>12TB</capacidad>
+    </producto>
+</catalogo_informatica>

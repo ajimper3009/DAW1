@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro isbn="978-1234567890">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autores>
+            <autor>Miguel de Cervantes Saavedra</autor>
+        </autores>
+        <editorial>Editorial ABC</editorial>
+        <fecha_publicacion>01/01/1605</fecha_publicacion>
+        <precio moneda="euros">24.99</precio>
+        <num_paginas>928</num_paginas>
+    </libro>
+    <libro isbn="978-2345678901">
+        <titulo>Los Pilares de la Tierra</titulo>
+        <autores>
+            <autor>Ken Follett</autor>
+        </autores>
+        <editorial>Editorial XYZ</editorial>
+        <fecha_publicacion>15/09/1989</fecha_publicacion>
+        <precio moneda="euros">29.99</precio>
+        <num_paginas>1102</num_paginas>
+    </libro>
+    <libro isbn="978-3456789012">
+        <titulo>La Sombra del Viento</titulo>
+        <autores>
+            <autor>Carlos Ruiz Zafón</autor>
+        </autores>
+        <editorial>Editorial LMN</editorial>
+        <fecha_publicacion>20/05/2001</fecha_publicacion>
+        <precio moneda="euros">19.95</precio>
+        <num_paginas>487</num_paginas>
+    </libro>
+    <libro isbn="978-4567890123">
+        <titulo>El Código Da Vinci</titulo>
+        <autores>
+            <autor>Dan Brown</autor>
+        </autores>
+        <editorial>Editorial OPQ</editorial>
+        <fecha_publicacion>18/03/2003</fecha_publicacion>
+        <precio moneda="euros">22.50</precio>
+        <num_paginas>689</num_paginas>
+    </libro>
+</libros>

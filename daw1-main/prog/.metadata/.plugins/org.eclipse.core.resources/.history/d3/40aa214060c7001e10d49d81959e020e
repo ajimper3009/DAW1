@@ -1,0 +1,36 @@
+package ejerciciosClase.unidad5.empresa;
+
+public class Empresa extends Empleado {
+
+	//Atributos
+	private String nombreEmpresa;
+	private String cif;
+	private int telefonoEmpresa;
+	private String direccionEmpresa;
+	private String [] empleados;
+	
+	//Constructores
+	
+	public Empresa(String nombre, String apellidos, String dni, double sueldoBruto, String nombreEmpresa,String cif,int telefonoEmpresa, String direccionEmpresa) {
+		super(nombre, apellidos, dni, sueldoBruto);
+		// TODO Auto-generated constructor stub
+		
+		this.nombreEmpresa = nombreEmpresa;
+		this.cif = cif;
+		this.telefonoEmpresa = telefonoEmpresa;
+		this.direccionEmpresa = direccionEmpresa;
+		this.empleados [100] = empleados [100];
+		
+	}
+	
+	public Empleado [] AñadirEmpleador() {
+		
+		
+		
+		return null;
+		
+	}
+	
+	
+	
+}

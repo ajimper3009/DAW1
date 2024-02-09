@@ -1,0 +1,179 @@
+		@font-face {
+		    font-family: inder;
+		    src: url(css/inder.ttf) format('truetype');
+		}
+
+		@font-face {
+		    font-family: titulares;
+		    src: url(css/alegreya_bold.ttf) format('truetype');
+		}
+
+		@font-face {
+		    font-family: titulares_light;
+		    src: url(css/alegreya_light.ttf) format('truetype');
+		}
+
+		header {
+		    position: relative;
+		    width: 1000px;
+		    margin: 0 auto;
+		    font-family: titulares_light;
+		    font-size: 24px;
+		    color: white;
+		}
+
+		body {
+		    background: url("img_html/fondol3.jpg");
+		    background-repeat: no-repeat;
+		    background-color: #F9F1CF;
+		}
+
+		section {
+		    font-family: inder;
+		    font-size: 12px;
+		    display: inline-block;
+		    margin-bottom: 45px;
+		    position: relative;
+		}
+
+		a {
+		    text-decoration: none;
+		    color: orange;
+		    font-size: 25px;
+		}
+
+		nav li {
+		    list-style: none;
+		    display: inline-block;
+		    padding: 4px 70px;
+		    text-align: center;
+		}
+
+		ul {
+		    padding: 0;
+		}
+
+		a:hover {
+		    color: white;
+		}
+
+		nav {
+		    color: silver;
+		    font-size: 25px;
+		    font-family: titulares;
+		    width: 800px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-top: 50px;
+		}
+
+		nav:hover {
+		    cursor: default;
+		}
+
+		#contenido {
+		    width: 980px;
+		    margin: 0 auto;
+		}
+
+		footer {
+		    width: 1000px;
+		    margin: 0 auto;
+		    position: relative;
+		    padding-top: 12px;
+		    font-family: titulares_light;
+		    font-size: 13px;
+		    color: white;
+		}
+
+		#titulo {
+		    font-family: titulares_light;
+		    font-size: 18px;
+		    margin-top: 65px;
+		}
+
+		#franja {
+		    width: 100%;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    height: 60px;
+		    background-color: #313B44;
+		    border-bottom: 6px black solid;
+		}
+
+		#franja_final {
+		    width: 100%;
+		    position: absolute;
+		    left: 0;
+		    height: 60px;
+		    background-color: #313B44;
+		    border-top: 6px black solid;
+		}
+
+		form {
+		    font-size: 14px;
+		    color: #6B121B;
+		    border-radius: 7px;
+		    background-color: #D4DAE4;
+		    border: 1px dotted #B8BFCB;
+		    padding: 14px;
+		}
+
+		fieldset {
+		    border-radius: 6px;
+		    border: 1px dotted gray;
+		    margin-bottom: 15px;
+		    padding: 0 20px;
+		}
+
+		legend {
+		    color: gray;
+		    font-size: 13px;
+		    margin-bottom: 16px;
+		}
+
+		input {
+		    background-color: white;
+		    border-radius: 4px;
+		    color: #264F96;
+		    font-size: 16px;
+		    padding: 3px 3px 3px 10px;
+		    outline: none;
+		}
+
+		#boton_enviar {
+		    padding: 6px 30px;
+		    background-color: #2A477A;
+		    color: white;
+		    font-size: 14px;
+		}
+
+		#boton_enviar:hover {
+		    cursor: pointer;
+		    background-color: #5376B2;
+		}
+
+		textarea {
+		    width: 450px;
+		    height: 50px;
+		    max-height: 200px;
+		    min-height: 50px;
+		    max-width: 493px;
+		    min-width: 300px;
+		    margin-top: 4px;
+		    border-radius: 4px;
+		    color: #264F96;
+		    font-size: 16px;
+		    padding: 3px 3px 3px 10px;
+		}
+
+		[required] {
+		    border-color: #4AA248;
+		    box-shadow: 0 0 3px #4AA248;
+		}
+
+		:invalid {
+		    border-color: #FF7F7F;
+		    box-shadow: 0 0 3px #FF7F7F;
+		}

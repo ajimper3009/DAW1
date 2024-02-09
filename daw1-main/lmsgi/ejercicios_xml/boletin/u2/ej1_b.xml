@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libro 	
+	autor="Isabel Castro" 
+	titulo="XML Guía de Aprendizaje"
+	precio="30€">
+</libro>
