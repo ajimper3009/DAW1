@@ -26,3 +26,13 @@
 
 8.- Telefono movil de la persona que se llama ines
 //contacto/persona/identificadores[nombre="Ines"]/../telefonos/movil
+
+9.- identificadores de los contactos (personas) que viven en la localidad de Snatander
+//contactos/persona/@id
+//contactos/persona/direccion/localidad
+//contactos/persona/direccion[localidad="Santander"]/../@id
+//contacto/persona[./direccion[localidad="Santander]]/@id
+
+10.- Nombre y apellidos de los contactos (personas) que viven en la localidad de Santander
+//contactos/persona/direccion[localidad="Santander"]/../identificadores/nombre | //contactos/persona/direccion[localidad="Santander"]/../identificadores/apellidos
+
