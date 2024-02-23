@@ -1,0 +1,100 @@
+1.- Nombre de la universidad
+/universidad/nombre
+
+2.- Pais de la universidad
+/universidad/pais
+
+3.- Nombre de las carreras
+//carreras//nombre
+
+4a.- Años de plan de estudio de las carreras
+//carreras//plan/../nombre | //carreras//plan
+
+4b. Años de plan de estudio de las carreras junto a su Nombre
+
+5a. Nombres de todos los alumnos
+/universidad/alumnos/alumno/nombre
+//alumnos/alumno/nombre
+
+5b. Nombres y apellidos de todos los alumnos
+//alumnos/alumno/nombre | //alumnos/alumno/apellido1 | //alumnos/alumno/apellido2
+//alumno/nombre | //alumno/apellido1 | //alumno/apellido2
+
+6.  Identificadores de todas las carreras
+//carreras/carrera/@id
+
+7.  Datos de la carrera cuyo id es c01
+//carreras/carrera[@id="c01"]
+
+8.  Centro en que se estudia de la carrera cuyo id es c02
+//carreras/carrera[@id="c02"]/centro
+
+9.  Nombre de las carreras que tengan subdirector
+//carreras/carrera[subdirector]/nombre
+
+10. Nombre de los alumnos que estén haciendo proyecto
+//alumnos/alumno/estudios/proyecto/../../nombre
+
+11a. Códigos de las carreras en las que hay algún alumno matriculado
+/universidad/alumnos/alumno/estudios/carrera/@codigo
+
+11b. Nombre de las carreras en las que hay algún alumno matriculado
+//carreras/carrera[@id=//alumnos/alumno/estudios/carrera/@codigo]/nombre
+
+12. Apellidos y Nombre de los alumnos con beca
+/universidad/alumnos/alumno[@beca="si"]/nombre | /universidad/alumnos/alumno[@beca="si"]/apellido1 | /universidad/alumnos/alumno[@beca="si"]/apellido2
+
+13a. id de las asignaturas de la titulación c04
+/universidad/asignaturas/asignatura[@titulacion="c04"]/@id
+
+13b. Nombre de las asignaturas de la titulación 
+//asignaturas/asignatura/@titulacion/../@id
+/universidad/asignaturas/asignatura[@titulacion="c04"]/nombre
+
+13c. Nombre de las asignaturas de la titulación I.T. Informática
+//asignaturas/asignatura[@titulacion=//carreras/carrera[nombre="I.T. Informática"]/@id]/nombre
+
+14. Nombre de las asignaturas de segundo trimestre
+/universidad/asignaturas/asignatura[./trimestre="2"]/nombre
+
+15. Nombre de las asignaturas que no tienen 4 créditos teóricos
+/universidad/asignaturas/asignatura[./creditos_teoricos!="4"]/nombre
+//asignatura[not(creditos_teoricos="4")]/nombre
+
+16. Código de la carrera que estudia el último alumno
+/universidad/alumnos/alumno[last()]/estudios/carrera
+
+17. Código de las asignaturas que estudian mujeres
+//alumnos/alumno[sexo="Mujer"]/carrera/asignatura
+
+18. Nombre de los alumnos que matriculados en la asignatura a02
+//alumnos//asignatura[@codigo="a02"]/../../../nombre
+//alumnos/alumno[.//asignatura[@codigo="a02"]]/nombre
+
+19. Códigos de las carreras que estudian los alumnos matriculados en alguna asignatura
+
+
+20. Apellidos de todos los hombres
+
+
+21. Nombre de la carrera que estudia Víctor Manuel
+//carreras/carrera[@id=//alumnos/alumno[nombre="Víctor Manuel"]/estidos/carrera/codigo]/nombre
+
+22. Nombre de las asignaturas que estudia Luisa
+
+
+23. Primer apellido de los alumnos matriculados en Ingeniería del Software
+
+
+24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos
+
+
+25. Nombre de los alumnos matriculados en carreras que no tienen subdirector
+
+
+26. Nombre de los alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien la carrera de I.T. Informática
+//alumnos/alumno//carrera[@codigo=//carreras/carrera[nombre="I.T. Informática"]/@id]
+//alumnos/alumno[.asignatura/@codigo=//asignaturas/asignatura[creditos_teoricos=0]/@id][.//carrera/@codigo=//carreras/carrera[nombre="I.T. Informática"]/@id]/nombre
+//alumno[.//carrera/@codigo="c01" and .//asignatura/@codigo="a01"]/nombre
+
+27. Nombre de los alumnos que estudian carreras cuyos planes son anteriores a 2002

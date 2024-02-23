@@ -1,0 +1,40 @@
+1.- peliculas con review "5"
+//movie[@review="5"]/title
+
+2.- Peliculas con review 5 y del año 1992
+//movie[@review="5" and @year="1992"]/title
+
+3.- Pelicula cuyo año sea par (operador mod)
+//movie[@year mod 2 = "0"]/title
+
+4.- Segunda pelicula
+//movie[2]
+//movie[position() = 2]
+
+5.- Peliculas en las que ha intervenido el actor Nicolas Cage
+//movie[actor ='Nicolas Cage']/title
+
+6.- Titulo de las peliculas que a intervenido Nicolas Cage
+//movie[actor ='Nicolas Cage']/title
+
+7.- Actores que han trabajado con Nicolas Cage
+//movie[actor ='Nicolas Cage']/actor
+
+8.- Actores que han trabajado con Nicolas Cage pero sin contarse a el mismo
+//movie[actor = "Nicolas Cage"]/actor[.!= "Nicolas Cage"]
+
+9.- Productores que han producido peliiculas del año 1992
+//movie[@year="1992"]/producer
+
+10.- Titulo de las peliculas de comedia protagonizadas por Nicolas Cage
+//movie[@type = "comedy" and actor= "Nicolas Cage"]/title
+
+11.- Peliculas con tres o mas actores
+//movie[count(actor) >=3]/title
+
+12.- Actores que realizan cine comico
+//movie[@type= "comedy"]/actor
+
+13.- Valor medio 
+//movie[actor="Nicolas Cage"]/@review
+sum(//movie[actor="Nicolas Cage"]/@review) div count(//movie[actor="Nicolas Cage"]/@review)

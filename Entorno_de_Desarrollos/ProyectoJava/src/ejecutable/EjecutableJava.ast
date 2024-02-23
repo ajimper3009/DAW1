@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<CompilationUnit BeginColumn='1' BeginLine='1' EndColumn='3' EndLine='47' Image='' PackageName='ejecutable'>
+    <PackageDeclaration BeginColumn='1' BeginLine='1' EndColumn='20' EndLine='1' Image='' Name='ejecutable'>
+        <ModifierList BeginColumn='1' BeginLine='1' EndColumn='1' EndLine='1' Image='' />
+    </PackageDeclaration>
+    <ImportDeclaration BeginColumn='1' BeginLine='3' EndColumn='24' EndLine='3' Image='' ImportOnDemand='false' ImportedName='javax.swing.Box' ImportedSimpleName='Box' PackageName='javax.swing' Static='false' />
+    <ImportDeclaration BeginColumn='1' BeginLine='4' EndColumn='30' EndLine='4' Image='' ImportOnDemand='false' ImportedName='javax.swing.BoxLayout' ImportedSimpleName='BoxLayout' PackageName='javax.swing' Static='false' />
+    <ImportDeclaration BeginColumn='1' BeginLine='5' EndColumn='27' EndLine='5' Image='' ImportOnDemand='false' ImportedName='javax.swing.JFrame' ImportedSimpleName='JFrame' PackageName='javax.swing' Static='false' />
+    <ImportDeclaration BeginColumn='1' BeginLine='6' EndColumn='27' EndLine='6' Image='' ImportOnDemand='false' ImportedName='javax.swing.JLabel' ImportedSimpleName='JLabel' PackageName='javax.swing' Static='false' />
+    <ClassOrInterfaceDeclaration Abstract='false' Annotation='false' Anonymous='false' BeginColumn='8' BeginLine='8' BinaryName='ejecutable.EjecutableJava' CanonicalName='ejecutable.EjecutableJava' EffectiveVisibility='public' EndColumn='13' EndLine='8' Enum='false' Final='false' Image='EjecutableJava' Interface='false' Local='false' Native='false' Nested='false' PackageName='ejecutable' PackagePrivate='false' Private='false' Protected='false' Public='true' Record='false' RegularClass='true' RegularInterface='false' SimpleName='EjecutableJava' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='true' SyntacticallyStatic='false' TopLevel='true' Transient='false' Visibility='public' Volatile='false'>
+        <ModifierList BeginColumn='1' BeginLine='8' EndColumn='7' EndLine='8' Image='' />
+        <ClassOrInterfaceBody BeginColumn='29' BeginLine='8' Empty='false' EndColumn='2' EndLine='47' Image='' Size='1'>
+            <MethodDeclaration Abstract='false' Arity='1' BeginColumn='21' BeginLine='10' EffectiveVisibility='public' EndColumn='25' EndLine='10' Final='false' Image='main' MainMethod='true' MethodName='main' Name='main' Native='false' Overridden='false' PackagePrivate='false' Private='false' Protected='false' Public='true' Static='true' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='true' SyntacticallyStatic='true' Transient='false' Varargs='false' Visibility='public' Void='true' Volatile='false'>
+                <ModifierList BeginColumn='2' BeginLine='10' EndColumn='15' EndLine='10' Image='' />
+                <VoidType ArrayDepth='0' ArrayType='false' BeginColumn='16' BeginLine='10' ClassOrInterfaceType='false' EndColumn='20' EndLine='10' Image='' PrimitiveType='false' TypeImage='void' />
+                <FormalParameters BeginColumn='25' BeginLine='10' Empty='false' EndColumn='40' EndLine='10' Image='' Size='1'>
+                    <FormalParameter Abstract='false' BeginColumn='26' BeginLine='10' EffectiveVisibility='local' EndColumn='39' EndLine='10' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' Varargs='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='26' BeginLine='10' EndColumn='26' EndLine='10' Image='' />
+                        <ArrayType ArrayDepth='1' ArrayType='true' BeginColumn='26' BeginLine='10' ClassOrInterfaceType='false' EndColumn='34' EndLine='10' Image='' PrimitiveType='false' TypeImage='String[]'>
+                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='26' BeginLine='10' ClassOrInterfaceType='true' EndColumn='32' EndLine='10' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='String' TypeImage='String' />
+                            <ArrayDimensions BeginColumn='32' BeginLine='10' Empty='false' EndColumn='34' EndLine='10' Image='' Size='1'>
+                                <ArrayTypeDim BeginColumn='32' BeginLine='10' EndColumn='34' EndLine='10' Image='' Varargs='false' />
+                            </ArrayDimensions>
+                        </ArrayType>
+                        <VariableDeclaratorId Abstract='false' ArrayType='true' BeginColumn='35' BeginLine='10' EffectiveVisibility='local' EndColumn='39' EndLine='10' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='true' Image='args' LambdaParameter='false' LocalVariable='false' Name='args' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='args' Visibility='local' Volatile='false' />
+                    </FormalParameter>
+                </FormalParameters>
+                <Block BeginColumn='41' BeginLine='10' Empty='false' EndColumn='3' EndLine='45' Image='' Size='15' containsComment='false'>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='11' BeginLine='12' EffectiveVisibility='local' EndColumn='18' EndLine='12' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='4' BeginLine='12' EndColumn='4' EndLine='12' Image='' />
+                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='4' BeginLine='12' ClassOrInterfaceType='true' EndColumn='10' EndLine='12' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JFrame' TypeImage='JFrame' />
+                        <VariableDeclarator BeginColumn='11' BeginLine='12' EndColumn='45' EndLine='12' Image='' Initializer='true' Name='ventana'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='11' BeginLine='12' EffectiveVisibility='local' EndColumn='18' EndLine='12' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='ventana' LambdaParameter='false' LocalVariable='true' Name='ventana' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='ventana' Visibility='local' Volatile='false' />
+                            <ConstructorCall AnonymousClass='false' BeginColumn='21' BeginLine='12' CompileTimeConstant='false' DiamondTypeArgs='false' EndColumn='45' EndLine='12' Expression='true' Image='' MethodName='new' ParenthesisDepth='0' Parenthesized='false' QualifiedInstanceCreation='false'>
+                                <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='25' BeginLine='12' ClassOrInterfaceType='true' EndColumn='31' EndLine='12' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JFrame' TypeImage='JFrame' />
+                                <ArgumentList BeginColumn='31' BeginLine='12' Empty='false' EndColumn='45' EndLine='12' Image='' Size='1'>
+                                    <StringLiteral BeginColumn='32' BeginLine='12' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Hola Mundo' DoubleLiteral='false' Empty='false' EndColumn='44' EndLine='12' Expression='true' FloatLiteral='false' Image='"Hola Mundo"' IntLiteral='false' Length='10' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                </ArgumentList>
+                            </ConstructorCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='10' BeginLine='14' EndColumn='65' EndLine='14' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='14' CompileTimeConstant='false' EndColumn='64' EndLine='14' Expression='true' Image='setDefaultCloseOperation' MethodName='setDefaultCloseOperation' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='14' CompileTimeConstant='false' EndColumn='17' EndLine='14' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='42' BeginLine='14' Empty='false' EndColumn='64' EndLine='14' Image='' Size='1'>
+                                <FieldAccess AccessType='READ' BeginColumn='43' BeginLine='14' CompileTimeConstant='true' EndColumn='63' EndLine='14' Expression='true' Image='EXIT_ON_CLOSE' Name='EXIT_ON_CLOSE' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='43' BeginLine='14' CompileTimeConstant='false' EndColumn='49' EndLine='14' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='43' BeginLine='14' ClassOrInterfaceType='true' EndColumn='49' EndLine='14' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JFrame' TypeImage='JFrame' />
+                                    </TypeExpression>
+                                </FieldAccess>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='14' BeginLine='17' EffectiveVisibility='local' EndColumn='25' EndLine='17' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='10' BeginLine='17' EndColumn='10' EndLine='17' Image='' />
+                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='10' BeginLine='17' ClassOrInterfaceType='true' EndColumn='13' EndLine='17' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                        <VariableDeclarator BeginColumn='14' BeginLine='17' EndColumn='51' EndLine='17' Image='' Initializer='true' Name='verticalBox'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='14' BeginLine='17' EffectiveVisibility='local' EndColumn='25' EndLine='17' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='verticalBox' LambdaParameter='false' LocalVariable='true' Name='verticalBox' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='verticalBox' Visibility='local' Volatile='false' />
+                            <MethodCall BeginColumn='28' BeginLine='17' CompileTimeConstant='false' EndColumn='51' EndLine='17' Expression='true' Image='createVerticalBox' MethodName='createVerticalBox' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='28' BeginLine='17' CompileTimeConstant='false' EndColumn='31' EndLine='17' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='28' BeginLine='17' ClassOrInterfaceType='true' EndColumn='31' EndLine='17' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                                </TypeExpression>
+                                <ArgumentList BeginColumn='49' BeginLine='17' Empty='true' EndColumn='51' EndLine='17' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='17' BeginLine='20' EffectiveVisibility='local' EndColumn='25' EndLine='20' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='10' BeginLine='20' EndColumn='10' EndLine='20' Image='' />
+                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='10' BeginLine='20' ClassOrInterfaceType='true' EndColumn='16' EndLine='20' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JLabel' TypeImage='JLabel' />
+                        <VariableDeclarator BeginColumn='17' BeginLine='20' EndColumn='52' EndLine='20' Image='' Initializer='true' Name='etiqueta'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='17' BeginLine='20' EffectiveVisibility='local' EndColumn='25' EndLine='20' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='etiqueta' LambdaParameter='false' LocalVariable='true' Name='etiqueta' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='etiqueta' Visibility='local' Volatile='false' />
+                            <ConstructorCall AnonymousClass='false' BeginColumn='28' BeginLine='20' CompileTimeConstant='false' DiamondTypeArgs='false' EndColumn='52' EndLine='20' Expression='true' Image='' MethodName='new' ParenthesisDepth='0' Parenthesized='false' QualifiedInstanceCreation='false'>
+                                <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='32' BeginLine='20' ClassOrInterfaceType='true' EndColumn='38' EndLine='20' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JLabel' TypeImage='JLabel' />
+                                <ArgumentList BeginColumn='38' BeginLine='20' Empty='false' EndColumn='52' EndLine='20' Image='' Size='1'>
+                                    <StringLiteral BeginColumn='39' BeginLine='20' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Hola Mundo' DoubleLiteral='false' Empty='false' EndColumn='51' EndLine='20' Expression='true' FloatLiteral='false' Image='"Hola Mundo"' IntLiteral='false' Length='10' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                </ArgumentList>
+                            </ConstructorCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='10' BeginLine='23' EndColumn='58' EndLine='23' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='23' CompileTimeConstant='false' EndColumn='57' EndLine='23' Expression='true' Image='setAlignmentX' MethodName='setAlignmentX' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='23' CompileTimeConstant='false' EndColumn='18' EndLine='23' Expression='true' Image='etiqueta' Name='etiqueta' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='32' BeginLine='23' Empty='false' EndColumn='57' EndLine='23' Image='' Size='1'>
+                                <FieldAccess AccessType='READ' BeginColumn='33' BeginLine='23' CompileTimeConstant='true' EndColumn='56' EndLine='23' Expression='true' Image='CENTER_ALIGNMENT' Name='CENTER_ALIGNMENT' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='33' BeginLine='23' CompileTimeConstant='false' EndColumn='39' EndLine='23' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='33' BeginLine='23' ClassOrInterfaceType='true' EndColumn='39' EndLine='23' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='JLabel' TypeImage='JLabel' />
+                                    </TypeExpression>
+                                </FieldAccess>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='26' EndColumn='52' EndLine='26' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='26' CompileTimeConstant='false' EndColumn='51' EndLine='26' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='26' CompileTimeConstant='false' EndColumn='21' EndLine='26' Expression='true' Image='verticalBox' Name='verticalBox' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='25' BeginLine='26' Empty='false' EndColumn='51' EndLine='26' Image='' Size='1'>
+                                <MethodCall BeginColumn='26' BeginLine='26' CompileTimeConstant='false' EndColumn='50' EndLine='26' Expression='true' Image='createVerticalGlue' MethodName='createVerticalGlue' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='26' BeginLine='26' CompileTimeConstant='false' EndColumn='29' EndLine='26' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='26' BeginLine='26' ClassOrInterfaceType='true' EndColumn='29' EndLine='26' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                                    </TypeExpression>
+                                    <ArgumentList BeginColumn='48' BeginLine='26' Empty='true' EndColumn='50' EndLine='26' Image='' Size='0' />
+                                </MethodCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='27' EndColumn='36' EndLine='27' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='27' CompileTimeConstant='false' EndColumn='35' EndLine='27' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='27' CompileTimeConstant='false' EndColumn='21' EndLine='27' Expression='true' Image='verticalBox' Name='verticalBox' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='25' BeginLine='27' Empty='false' EndColumn='35' EndLine='27' Image='' Size='1'>
+                                <VariableAccess AccessType='READ' BeginColumn='26' BeginLine='27' CompileTimeConstant='false' EndColumn='34' EndLine='27' Expression='true' Image='etiqueta' Name='etiqueta' ParenthesisDepth='0' Parenthesized='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='28' EndColumn='52' EndLine='28' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='28' CompileTimeConstant='false' EndColumn='51' EndLine='28' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='28' CompileTimeConstant='false' EndColumn='21' EndLine='28' Expression='true' Image='verticalBox' Name='verticalBox' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='25' BeginLine='28' Empty='false' EndColumn='51' EndLine='28' Image='' Size='1'>
+                                <MethodCall BeginColumn='26' BeginLine='28' CompileTimeConstant='false' EndColumn='50' EndLine='28' Expression='true' Image='createVerticalGlue' MethodName='createVerticalGlue' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='26' BeginLine='28' CompileTimeConstant='false' EndColumn='29' EndLine='28' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='26' BeginLine='28' ClassOrInterfaceType='true' EndColumn='29' EndLine='28' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                                    </TypeExpression>
+                                    <ArgumentList BeginColumn='48' BeginLine='28' Empty='true' EndColumn='50' EndLine='28' Image='' Size='0' />
+                                </MethodCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='31' EndColumn='104' EndLine='31' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='31' CompileTimeConstant='false' EndColumn='103' EndLine='31' Expression='true' Image='setLayout' MethodName='setLayout' ParenthesisDepth='0' Parenthesized='false'>
+                            <MethodCall BeginColumn='10' BeginLine='31' CompileTimeConstant='false' EndColumn='34' EndLine='31' Expression='true' Image='getContentPane' MethodName='getContentPane' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='31' CompileTimeConstant='false' EndColumn='17' EndLine='31' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='32' BeginLine='31' Empty='true' EndColumn='34' EndLine='31' Image='' Size='0' />
+                            </MethodCall>
+                            <ArgumentList BeginColumn='44' BeginLine='31' Empty='false' EndColumn='103' EndLine='31' Image='' Size='1'>
+                                <ConstructorCall AnonymousClass='false' BeginColumn='45' BeginLine='31' CompileTimeConstant='false' DiamondTypeArgs='false' EndColumn='102' EndLine='31' Expression='true' Image='' MethodName='new' ParenthesisDepth='0' Parenthesized='false' QualifiedInstanceCreation='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='49' BeginLine='31' ClassOrInterfaceType='true' EndColumn='58' EndLine='31' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='BoxLayout' TypeImage='BoxLayout' />
+                                    <ArgumentList BeginColumn='58' BeginLine='31' Empty='false' EndColumn='102' EndLine='31' Image='' Size='2'>
+                                        <MethodCall BeginColumn='59' BeginLine='31' CompileTimeConstant='false' EndColumn='83' EndLine='31' Expression='true' Image='getContentPane' MethodName='getContentPane' ParenthesisDepth='0' Parenthesized='false'>
+                                            <VariableAccess AccessType='READ' BeginColumn='59' BeginLine='31' CompileTimeConstant='false' EndColumn='66' EndLine='31' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                                            <ArgumentList BeginColumn='81' BeginLine='31' Empty='true' EndColumn='83' EndLine='31' Image='' Size='0' />
+                                        </MethodCall>
+                                        <FieldAccess AccessType='READ' BeginColumn='85' BeginLine='31' CompileTimeConstant='true' EndColumn='101' EndLine='31' Expression='true' Image='X_AXIS' Name='X_AXIS' ParenthesisDepth='0' Parenthesized='false'>
+                                            <TypeExpression BeginColumn='85' BeginLine='31' CompileTimeConstant='false' EndColumn='94' EndLine='31' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                                <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='85' BeginLine='31' ClassOrInterfaceType='true' EndColumn='94' EndLine='31' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='BoxLayout' TypeImage='BoxLayout' />
+                                            </TypeExpression>
+                                        </FieldAccess>
+                                    </ArgumentList>
+                                </ConstructorCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='32' EndColumn='67' EndLine='32' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='32' CompileTimeConstant='false' EndColumn='66' EndLine='32' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <MethodCall BeginColumn='10' BeginLine='32' CompileTimeConstant='false' EndColumn='34' EndLine='32' Expression='true' Image='getContentPane' MethodName='getContentPane' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='32' CompileTimeConstant='false' EndColumn='17' EndLine='32' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='32' BeginLine='32' Empty='true' EndColumn='34' EndLine='32' Image='' Size='0' />
+                            </MethodCall>
+                            <ArgumentList BeginColumn='38' BeginLine='32' Empty='false' EndColumn='66' EndLine='32' Image='' Size='1'>
+                                <MethodCall BeginColumn='39' BeginLine='32' CompileTimeConstant='false' EndColumn='65' EndLine='32' Expression='true' Image='createHorizontalGlue' MethodName='createHorizontalGlue' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='39' BeginLine='32' CompileTimeConstant='false' EndColumn='42' EndLine='32' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='39' BeginLine='32' ClassOrInterfaceType='true' EndColumn='42' EndLine='32' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                                    </TypeExpression>
+                                    <ArgumentList BeginColumn='63' BeginLine='32' Empty='true' EndColumn='65' EndLine='32' Image='' Size='0' />
+                                </MethodCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='33' EndColumn='52' EndLine='33' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='33' CompileTimeConstant='false' EndColumn='51' EndLine='33' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <MethodCall BeginColumn='10' BeginLine='33' CompileTimeConstant='false' EndColumn='34' EndLine='33' Expression='true' Image='getContentPane' MethodName='getContentPane' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='33' CompileTimeConstant='false' EndColumn='17' EndLine='33' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='32' BeginLine='33' Empty='true' EndColumn='34' EndLine='33' Image='' Size='0' />
+                            </MethodCall>
+                            <ArgumentList BeginColumn='38' BeginLine='33' Empty='false' EndColumn='51' EndLine='33' Image='' Size='1'>
+                                <VariableAccess AccessType='READ' BeginColumn='39' BeginLine='33' CompileTimeConstant='false' EndColumn='50' EndLine='33' Expression='true' Image='verticalBox' Name='verticalBox' ParenthesisDepth='0' Parenthesized='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='34' EndColumn='67' EndLine='34' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='34' CompileTimeConstant='false' EndColumn='66' EndLine='34' Expression='true' Image='add' MethodName='add' ParenthesisDepth='0' Parenthesized='false'>
+                            <MethodCall BeginColumn='10' BeginLine='34' CompileTimeConstant='false' EndColumn='34' EndLine='34' Expression='true' Image='getContentPane' MethodName='getContentPane' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='34' CompileTimeConstant='false' EndColumn='17' EndLine='34' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='32' BeginLine='34' Empty='true' EndColumn='34' EndLine='34' Image='' Size='0' />
+                            </MethodCall>
+                            <ArgumentList BeginColumn='38' BeginLine='34' Empty='false' EndColumn='66' EndLine='34' Image='' Size='1'>
+                                <MethodCall BeginColumn='39' BeginLine='34' CompileTimeConstant='false' EndColumn='65' EndLine='34' Expression='true' Image='createHorizontalGlue' MethodName='createHorizontalGlue' ParenthesisDepth='0' Parenthesized='false'>
+                                    <TypeExpression BeginColumn='39' BeginLine='34' CompileTimeConstant='false' EndColumn='42' EndLine='34' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='39' BeginLine='34' ClassOrInterfaceType='true' EndColumn='42' EndLine='34' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Box' TypeImage='Box' />
+                                    </TypeExpression>
+                                    <ArgumentList BeginColumn='63' BeginLine='34' Empty='true' EndColumn='65' EndLine='34' Image='' Size='0' />
+                                </MethodCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='37' EndColumn='46' EndLine='37' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='37' CompileTimeConstant='false' EndColumn='45' EndLine='37' Expression='true' Image='setLocationRelativeTo' MethodName='setLocationRelativeTo' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='37' CompileTimeConstant='false' EndColumn='17' EndLine='37' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='39' BeginLine='37' Empty='false' EndColumn='45' EndLine='37' Image='' Size='1'>
+                                <NullLiteral BeginColumn='40' BeginLine='37' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='false' DoubleLiteral='false' EndColumn='44' EndLine='37' Expression='true' FloatLiteral='false' Image='' IntLiteral='false' LongLiteral='false' NullLiteral='true' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='40' EndColumn='36' EndLine='40' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='40' CompileTimeConstant='false' EndColumn='35' EndLine='40' Expression='true' Image='setSize' MethodName='setSize' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='40' CompileTimeConstant='false' EndColumn='17' EndLine='40' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='25' BeginLine='40' Empty='false' EndColumn='35' EndLine='40' Image='' Size='2'>
+                                <NumericLiteral Base='10' BeginColumn='26' BeginLine='40' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='29' EndLine='40' Expression='true' FloatLiteral='false' Image='300' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='300.0' ValueAsFloat='300.0' ValueAsInt='300' ValueAsLong='300' />
+                                <NumericLiteral Base='10' BeginColumn='31' BeginLine='40' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='34' EndLine='40' Expression='true' FloatLiteral='false' Image='200' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='200.0' ValueAsFloat='200.0' ValueAsInt='200' ValueAsLong='200' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='10' BeginLine='43' EndColumn='35' EndLine='43' Image=''>
+                        <MethodCall BeginColumn='10' BeginLine='43' CompileTimeConstant='false' EndColumn='34' EndLine='43' Expression='true' Image='setVisible' MethodName='setVisible' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='10' BeginLine='43' CompileTimeConstant='false' EndColumn='17' EndLine='43' Expression='true' Image='ventana' Name='ventana' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='28' BeginLine='43' Empty='false' EndColumn='34' EndLine='43' Image='' Size='1'>
+                                <BooleanLiteral BeginColumn='29' BeginLine='43' BooleanLiteral='true' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='33' EndLine='43' Expression='true' FloatLiteral='false' Image='' IntLiteral='false' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' True='true' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                </Block>
+            </MethodDeclaration>
+        </ClassOrInterfaceBody>
+    </ClassOrInterfaceDeclaration>
+</CompilationUnit>

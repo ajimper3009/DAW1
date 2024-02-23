@@ -1,6 +1,0 @@
-package ejerciciosClase.unidad5.empresa;
-
-public class persona  implements imprimible{
-
-	
-}
