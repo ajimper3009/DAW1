@@ -43,9 +43,6 @@ public class EstructuraDeDatosIntroduccion {
 		
 		Map<Integer, Integer> diccionario = new HashMap<Integer, Integer>();
 		
-		public static List<Integer> getNumerosEnteros(int numEnteros) {
-			
-		}
 		
 	}
 
