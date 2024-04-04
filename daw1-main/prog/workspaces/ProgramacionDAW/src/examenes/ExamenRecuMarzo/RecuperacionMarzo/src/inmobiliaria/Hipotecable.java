@@ -1,4 +1,4 @@
-package inmobiliaria;
+package examenes.ExamenRecuMarzo.RecuperacionMarzo.src.inmobiliaria;
 
 public interface Hipotecable {
 

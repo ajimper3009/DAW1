@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentasBancariasMain"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaAhorro"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaBancaria"/>
@@ -8,11 +7,22 @@
     <fullyQualifiedTypeName name="org.apache.commons.lang3.builder.StandardToStringStyle"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaCorriente"/>
-    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.CuentaCorrientePersonal"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.cuentaBancarias.Imprimible"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.persona.Persona"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.EmpresaExeption"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.Empleado"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.persona"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.accessibility.AccessibleStateSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 </qualifiedTypeNameHistroy>

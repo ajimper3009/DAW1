@@ -1,4 +1,4 @@
-package cadenasArrays;
+package examenes.ExamenRecuMarzo.RecuperacionMarzo.src.cadenasArrays;
 
 public class UtilidadesArrays {
 

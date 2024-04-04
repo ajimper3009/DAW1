@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\1DAW\Repositorio_Alejandro\DAW1\daw1-main\prog\workspaces\ProgramacionDAW"/>
 			<item value="C:\Users\1DAW\Repositorio_Alejandro\daw1-main\prog\workspaces\ProgramacionDAW"/>
 			<item value="C:\Users\1DAW\Repositorio_Alejandro\daw1-main\prog\workspaces\ProgramacionDAW\src"/>
 		</list>
