@@ -1,4 +1,4 @@
-package ejerciciosClase.unidad6;
+package ejerciciosClase.unidad6.listas;
 
 public class Producto {
 
@@ -56,5 +56,16 @@ public class Producto {
 
 	public void modificar_existencias(int stock) {
 		existencias = stock;
+	}
+
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("Codigo: ").append(this.codigo);
+		sb.append("\nNombre: ").append(this.nombre);
+		sb.append("\nTipo: ").append(this.tipo);
+		sb.append("\nPrecio: ").append(this.precio);
+		sb.append("Stock: ").append(this.existencias);
+		
+		return sb.toString();
 	}
 }

@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/istockphoto-479568786-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedorMenu {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+    gap: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.contenedorMain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.caja1 {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.caja2 {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.caja3 {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.boton {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+
