@@ -18,7 +18,7 @@ public class NumeroPrimo {
 		}
 	}
 
-	private static boolean esPrimo(int i) {
+	public static boolean esPrimo(int i) {
 		boolean esPrimo = true;
 		int index = 2;
 		while (index < (i/2 + 1) && esPrimo) {

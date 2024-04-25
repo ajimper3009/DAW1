@@ -2,7 +2,7 @@ package ejerciciosClase.unidad5.empresa;
 
 import ejerciciosClase.unidad5.persona.Persona;
 
-public class Empleado  extends persona {
+public class Empleado extends persona {
 
 
 
