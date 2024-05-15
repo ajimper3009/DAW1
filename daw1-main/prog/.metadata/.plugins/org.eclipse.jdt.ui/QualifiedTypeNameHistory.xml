@@ -12,12 +12,8 @@
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.EmpresaExeption"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.Empleado"/>
     <fullyQualifiedTypeName name="ejerciciosClase.unidad5.empresa.persona"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.accessibility.AccessibleStateSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -28,8 +24,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
@@ -38,6 +32,22 @@
     <fullyQualifiedTypeName name="ejerciciosClase.unidad3.NumeroPrimo"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="gestionDeEdificio.Persona"/>
+    <fullyQualifiedTypeName name="gestionDeEdificio.Registro"/>
+    <fullyQualifiedTypeName name="gestionDeEdificio.Edificio"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="gestionDeEdificio.EdificioExeption"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="ejerciciosClase.unidad7.Gesticimal.Almacen"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>
