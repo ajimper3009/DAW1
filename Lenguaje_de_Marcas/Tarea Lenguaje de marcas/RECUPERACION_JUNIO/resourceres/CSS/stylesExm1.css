@@ -1,0 +1,13 @@
+.cabezera {
+    display: flex;
+    background-color: darkred;
+    color: white;
+    height: 75px;
+}
+
+.menu  {
+    align-items: center;
+    background: url(../IMG/fondo.jpg);
+    display: flex;  
+}
+

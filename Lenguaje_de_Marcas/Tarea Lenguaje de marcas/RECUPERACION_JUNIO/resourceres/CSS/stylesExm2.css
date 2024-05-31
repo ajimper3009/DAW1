@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.cabezera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+    background-color: whitesmoke;
+    font-size: 2em;
+}
+
+.textoh2 {
+    display: flex;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textoh3 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    background-color: cornflowerblue;
+}
+
+.navegador {
+    background-color: cornflowerblue;
+    height: 620px;
+}
+
+
+.logohab {
+    display: flex;
+    justify-content: right;
+}
+
+.logomed {
+    display: flex;
+    justify-content: right;
+}
+
+.pie {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.textoFooter {
+    color: cornflowerblue;
+}
+
+.tabla {
+    width: 50%;
+    border-radius: 1px;
+    margin: 20px 0;
+    font-size: 1em;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms;
+    
+}
+
+.th {
+    padding: 12px 15px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+}
+
+.td {
+    padding: 12px 15px;
+    background-color: bisque;
+    border: 5px solid black;
+}
+
+.td:hover {
+    height: 75px;
+}
+
+.th:hover {
+    height: 75px;
+}
